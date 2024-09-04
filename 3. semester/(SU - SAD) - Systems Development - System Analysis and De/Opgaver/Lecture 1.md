@@ -87,5 +87,6 @@ Aalborg Taxi Managment System
 3. Make a radically different system definition for the Taxi System. The system definition must comply with the FACTOR-criterion. Compare with the first one; what are the differences.  
     
 10. Download and install the tool Visual Paradigm for UML Community Edition from www.visual-paradigm.com.
-11. Start Visual Paradigm for UML (VP-UML). Create a Class Diagram that reproduces Figure 1.3 in the OOA&D book. Experiment with the tool.  
+
+12. Start Visual Paradigm for UML (VP-UML). Create a Class Diagram that reproduces Figure 1.3 in the OOA&D book. Experiment with the tool.  
     Hint: "1..*" is found under Multiplicity.
