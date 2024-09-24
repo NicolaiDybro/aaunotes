@@ -11,9 +11,11 @@
             "id": "bb229280d3f1ad9c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf"
+                "file": "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 4.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf",
+                "file": "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf",
+                "file": "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf"
+                "file": "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 4.md"
               }
             }
           }
@@ -146,15 +148,23 @@
   },
   "active": "bb229280d3f1ad9c",
   "lastOpenFiles": [
-    "3. semester/(DEB) - Design and Evaluation of User Interfaces/Noter/Lecture 1.md",
-    "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf",
-    "Untitled",
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 1.md",
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 4.md",
+    "3. semester/OOP",
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 2.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Slides/Lecture 1.pdf",
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Opgaver/Lecture 2.md",
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Opgaver/Lecture 1.md",
+    "Pasted image 20240909110703.png",
+    "Pasted image 20240909103421.png",
+    "Pasted image 20240908222253.png",
+    "Pasted image 20240908222233.png",
+    "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides/Lecture 1.pdf",
+    "3. semester/(DEB) - Design and Evaluation of User Interfaces/Noter/Lecture 1.md",
+    "Untitled",
     "3. semester/(DEB) - Design and Evaluation of User Interfaces/Slides",
     "3. semester/(DEB) - Design and Evaluation of User Interfaces/Opgaver",
     "3. semester/(DEB) - Design and Evaluation of User Interfaces/Noter",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter/Lecture 1.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Opgaver/Lecture 1.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Slides",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/Noter"
   ]
