@@ -1,0 +1,48 @@
+- Types
+	- *Primative type*: e.g. int, double, bool (Passed by value)
+	- *Reference type*: e.g. String, null, Catalog (Passed by referrence)
+	- Typing
+		- *Static typed*: Type checked at compile time
+		- *Dynamically typed*: Type checked at runtime
+		- *Strongly typed*: Strict type enforcement
+		- *Weakly typed*: Lose type enforcement (e.g. add number to string)
+	- *String pool*: Set of strings, to improve performance and avoid duplicate strings after compilation
+	- *Autoboxing*: automatic wrapping of primative type
+	- *Autounboxing* automatic unwrapping of primate type
+- Objects / Classes
+	- Class
+		- *Class variables/field*: Static field
+		- *Class methods*: Static method
+		- *Member*: Fields, methods and constructors of a class
+	- Object
+		- *Instance variables/field*: Object state
+		- *Instance methods*: Object behavior
+		
+	- *Fields*: Instance- and class variables
+	- *Behavior*: Methods and constructors
+		- *Signature*: name + sequence of parameters
+		- *Actual parameter*: The value passed to the method
+		- *Formal parameter*: Part of the signature
+	- *Properties*: Usually getter and setters
+-  [[SOLID]]
+	- *Single-Responsibility Principle*
+	- *Open-closen Principle*
+	- *Liskov Substitution Princible*
+	- *Interface segregation Princible*
+	- *Dependency Inversion Princible*
+- [[Binding]]
+	- *Early binding*: Compile time binding of static, private and final methods
+	- *Late binding*: Runtime binding, e.g. method overwriting
+- [[OOP Principles]]
+	- *Abstraction*: Focus on what's important
+	- *Encapsulation*: Hide implementation detail, combine in entity
+	- *Inheritance*: New types from existing types.
+	- *Polymorphism*: Behavior depends on contex
+- [[Programming paradigms]]
+	- *Imperative programming*: Focus on control flow
+		- *Prucedural programming*: Use functions
+		- *OOP*
+	- *Declarative programming*: Focus on logic
+		- *Functional programming*: First-class functions (functions are treated as type)
+
+
