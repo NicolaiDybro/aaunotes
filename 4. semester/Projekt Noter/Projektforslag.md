@@ -16,8 +16,6 @@ Det er nemt og enkelt at finde ud af.
 `| sort(column="dato")` 
 `| write_csv("api_data.csv")`
 
-
-
 Alternativer:
 Pandas
 dplyr (R)
