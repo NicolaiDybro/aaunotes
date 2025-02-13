@@ -22,11 +22,11 @@ dplyr (R)
 SQL
 Rust, compiler til direkte maskienkode
 
+PicLang
 
 ## Simpelt matematik program
 
-Super simpelt matematik program, der skal køre meget hurtigt. Hurtigere end Rust og meget hurtigere end R:
-
+Super simpelt matematik program, der skal køre meget hurtigt. Hurtigere end Rust og meget hurtigere end R
 
 
 
