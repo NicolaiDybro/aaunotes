@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 2.md",
+                "file": "4. semester/Projekt Noter/Projektforslag.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Projektforslag"
             }
           }
         ],
@@ -65,8 +65,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -190,20 +189,19 @@
   },
   "active": "659a382dbdff513a",
   "lastOpenFiles": [
-    "4. semester/CAOS/Slides/00- C introduction.pdf",
-    "4. semester/CAOS/Slides/00- C introduction.pdf.crdownload",
-    "4. semester/CAOS/Slides/01 - 01 data.pdf",
-    "4. semester/CAOS/Slides/01 - 01 data.pdf.crdownload",
-    "4. semester/CAOS/Slides/01 - 01 plenum.pdf",
-    "4. semester/CAOS/Slides/01 - 01 plenum.pdf.crdownload",
-    "4. semester/CAOS/Slides/02-00 Plenum.pdf",
-    "4. semester/CAOS/Slides/02-00 Plenum.pdf.crdownload",
-    "4. semester/CAOS/Slides/02-heltal.pdf",
-    "4. semester/CAOS/Slides/02-heltal.pdf.crdownload",
-    "4. semester/CAOS/Slides/02 -02 floats-kort.pdf",
-    "4. semester/Projekt Noter/Projektforslag.md",
     "4. semester/CAOS/Notes/Lecture 2.md",
+    "4. semester/Projekt Noter/Projektforslag.md",
+    "4. semester/CAOS/Slides/02-heltal.pdf",
+    "4. semester/CAOS/Slides/01 - 01 plenum.pdf",
+    "4. semester/CAOS/Slides/02-00 Plenum.pdf",
+    "4. semester/CAOS/Slides/02 -02 floats-kort.pdf",
+    "4. semester/CAOS/Slides/01 - 01 data.pdf",
+    "4. semester/CAOS/Slides/00- C introduction.pdf",
+    "4. semester/CAOS/Slides",
     "4. semester/CAOS/Notes/Lecture 1.md",
+    "4. semester/SPO",
+    "4. semester/Projekt Noter",
+    "4. semester/CAOS/Notes/Exercises",
     "3. semester/OOP/Java/Inheritance.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Lecture 11.md",
     "Pasted image 20240909110703.png",
