@@ -42,3 +42,9 @@ Et simpelt sprog, hvor man kan se ændringer med det samme og få feedback på e
 ## Chatbot progammeringssprog
 
 Skal bruges til at kunne skabe egen chatbot med hurtigt svar tilbage. 
+
+
+
+Mellemkode
+
+Oversætter til en fortolker ved brug af mellemkode

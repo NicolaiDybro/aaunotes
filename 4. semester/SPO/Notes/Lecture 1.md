@@ -44,6 +44,7 @@ The **front end** is responsible for transforming a **character string** (progra
 7. **Syntax Analysis (Parsing)**
    - Checks if the sequence of tokens matches the **grammar** of the language.
    - If valid, produces an **AST**.
+   - Eksempelvis ved et for loop, så er der et syntaks træ der kigger på parenteser
 
 8. **Type Checking**
    - Ensures that variables and operations have valid types.
@@ -106,8 +107,18 @@ Examples of **Turing-complete** languages:
 ```haskell
 gcd a 0 = a
 gcd a b = gcd b (mod a b)
+```
 
 
+
+## Transpiler
+
+### Fordele:
+- Hvis kildekoden er meget nyt, som så oversætter til et mere populært sprog
+- Portabilitet - Kan bruges på forskellige systemer relativt nemt
+
+### Ulemper:
+- Ikke så effektivt som, hvis man bare lavede en compiler
 
 ## Opgaver:
 
@@ -121,8 +132,12 @@ Nævn så mange imperativeprogrammeringssprog som du kan! Hvordan ved du at de e
 - Lua
 - Swift
 - Rust
+- COBOL
+- ALGOL
+- BASIC
+- COMAL
 
-De er imperative, da de følger en række instruktioner der ændre hvordan programmet opfører sig. 
+De er imperative, da de følger en række instruktioner der ændre hvordan programmet opfører sig.  Kommandoer x = e
 
 
 På hvilke måder minder Algo 60 om C?
