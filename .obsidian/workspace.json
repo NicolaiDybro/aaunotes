@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "248911b8ff433c15",
+        "id": "dd686b203b4e2376",
         "type": "tabs",
         "children": [
           {
-            "id": "659a382dbdff513a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "4. semester/SPO/Slides/Session 1 - Introduction.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Session 1 - Introduction"
-            }
-          },
-          {
-            "id": "6f1bdb080143da5f",
+            "id": "ddfac34fbd2a6dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -52,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -174,24 +163,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "659a382dbdff513a",
+  "active": "ddfac34fbd2a6dfc",
   "lastOpenFiles": [
-    "4. semester/SPO/Notes/Lecture 1.md",
-    "4. semester/Projekt Noter/Projektforslag.md",
-    "4. semester/CAOS/Slides/03-00 plenum.pdf",
+    "4. semester/CAOS/Extra stuff/x64_cheatsheet.pdf",
     "4. semester/CAOS/Notes/Lecture 3.md",
     "4. semester/CAOS/Notes/Lecture 2.md",
-    "4. semester/CAOS/Slides/02-heltal.pdf",
-    "4. semester/CAOS/Slides/03-assembly1-bait.pdf",
-    "4. semester/CAOS/Slides/01 - 01 plenum.pdf",
     "4. semester/CAOS/Notes/Lecture 1.md",
-    "4. semester/CAOS/Slides/02 -02 floats-kort.pdf",
-    "4. semester/CAOS/Slides/01 - 01 data.pdf",
-    "4. semester/CAOS/Extra stuff/x64_cheatsheet.pdf",
+    "4. semester/SPO/Notes/Lecture 2.md",
+    "4. semester/SPO/Notes/Lecture 1.md",
+    "4. semester/Projekt Noter/Projektforslag.md",
+    "sti/til/fil.pdf.md",
+    "sti/til",
+    "sti",
     "4. semester/CAOS/Extra stuff/GDB Cheat Sheet.pdf",
+    "4. semester/CAOS/Slides/03-assembly1-bait.pdf",
+    "4. semester/SS/Notes/Lecture 1.md",
+    "4. semester/SS/Slides/00 math prelim.pdf",
+    "4. semester/SS/Slides",
+    "4. semester/SS/Notes",
+    "4. semester/SS/Notes/Lecture 1",
+    "4. semester/SS/00 math prelim.pdf.crdownload",
+    "4. semester/SPO/Important stuff.md",
+    "4. semester/SPO/Resources/Pasted image 20250219175830.png",
+    "4. semester/SPO/Resources/Pasted image 20250219175704.png",
+    "4. semester/SPO/Resources/Pasted image 20250219174014.png",
     "3. semester/OOP/Design Patterns.md",
-    "4. semester/CAOS/Extra stuff/GDB Cheat Sheet.pdf.crdownload",
-    "4. semester/CAOS/Extra stuff",
     "3. semester/OOP/Java/Inheritance.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Lecture 11.md",
     "Pasted image 20240909110703.png",
@@ -208,18 +204,11 @@
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 10/Lecture 10.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 10/Chapter 13.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 1/Lecture.md",
-    "3. semester/OOP/Binding.md",
-    "3. semester/OOP/Java/Object.md",
-    "3. semester/OOP/Java/Primative types.md",
-    "3. semester/OOP/Java/Modules and packages.md",
     "3. semester/OOP/Ressources/Pasted image 20241229162301.png",
     "3. semester/OOP/Ressources/Pasted image 20241229135415.png",
     "3. semester/OOP/Ressources/Pasted image 20241229111644.png",
     "3. semester/OOP/Ressources/Pasted image 20241229111522.png",
     "3. semester/OOP/Ressources/Pasted image 20241229111145.png",
-    "3. semester/OOP/Ressources/Pasted image 20241229111043.png",
-    "3. semester/OOP/Ressources/Pasted image 20241229105732.png",
-    "3. semester/OOP/Ressources/Pasted image 20241229105248.png",
-    "3. semester/OOP/Java/Ressources/Pasted image 20241229143421.png"
+    "3. semester/OOP/Ressources/Pasted image 20241229111043.png"
   ]
 }
