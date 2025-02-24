@@ -43,6 +43,8 @@
     * Partial order: reflexive, anti-symmetric and transitive.
     * Total order: Partial order where every pair of elements are comparable.
 
+![[Pasted image 20250220073612.png]]
+
 ## Functions
 
 * **Definition:** A function `f: A → B` is a relation where each element of A is associated with exactly one element of B.
@@ -67,6 +69,8 @@
 * **Quantifiers:**
     * Universal: `∀` (for all)
     * Existential: `∃` (there exists)
+
+![[Pasted image 20250220080040.png]]
 
 ## Types of Proofs
 
