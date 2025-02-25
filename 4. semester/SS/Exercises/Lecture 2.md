@@ -31,32 +31,35 @@ $$L(M_3)=\{ b^n a^m|m\in\{0,1\}|n\ge0 \}$$
 
 ```mermaid
 stateDiagram-v2
+
     [*] --> q0
+
     state q0 (q0)
     state q1 (q1) #green
     state q2 (q2)
     state r1 (r1) #green
     state r2 (r2)
+
     q0 --> q1: a
     q0 --> r1: b
+
     q1 --> q1: a
     q1 --> q2: b
+
     q2 --> q1: a
     q2 --> q2: b
+
     r1 --> r2: a
     r1 --> r1: b
+
     r2 --> r2: a
     r2 --> r1: b
-    style q0 fill:#fff,stroke:#000,color:#000
-    style q1 fill:#90ee90,stroke:#000,color:#000
-    style q2 fill:#fff,stroke:#000,color:#000
-    style r1 fill:#90ee90,stroke:#000,color:#000
-    style r2 fill:#fff,stroke:#000,color:#000
+
 ```
 
 
-$$L(M_4)=\{ xwx |\}$$
-
+$$L(M_4)=\{xwx|x\inΣ|w\inΣ^*\}\cup\{a,b\}$$
+r1 and q1 should be green
 
 ![[Pasted image 20250224182643.png]]
 1. 
@@ -73,10 +76,6 @@ stateDiagram-v2
     q3 --> q4: 22
     q4 --> q4: 1,22
     q3 --> q3: 1,22
-    style q1 fill:#fff,stroke:#000,color:#000
-    style q2 fill:#fff,stroke:#000,color:#000
-    style q4 fill:#fff,stroke:#000,color:#000
-    style q3 fill:#90ee90,stroke:#000,color:#000
 ```
 2. 
 
@@ -85,7 +84,6 @@ stateDiagram-v2
     [*] --> q1
     state q1 (q1)
     q1 --> q1: 1,2,3
-    style q1 fill:#fff,stroke:#000,color:#000
 ```
 3. 
 ```mermaid
@@ -93,8 +91,6 @@ stateDiagram-v2
     [*] --> q1
     state q1 (q1)
     q1 --> q2: 1,2,3
-    style q1 fill:#90ee90,stroke:#000,color:#000
-    style q2 fill:#fff,stroke:#000,color:#000
 ```
 4. 
 ```mermaid
@@ -104,6 +100,4 @@ stateDiagram-v2
     q1 --> q2: go
     q2 --> q2: go, stop
 	q2 --> q1: stop
-    style q1 fill:#90ee90,stroke:#000,color:#000
-    style q2 fill:#fff,stroke:#000,color:#000
 ```
