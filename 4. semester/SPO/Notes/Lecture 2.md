@@ -91,12 +91,11 @@ Skal altid starte med 1
 
 Og skal altid slutte med 1
 Derfor er svaret:
-$1(0|1)*1$
+$1[01]*1$
 
 
-![[Pasted image 20250219175830.png]]
+
 
 ### 2. Byg en NFA, der genkender det sprog, der er beskrevet af det regulære udtryk 01∗.
 
-
-![[Pasted image 20250219175704.png]]
+![[Pasted image 20250226201438.png]]

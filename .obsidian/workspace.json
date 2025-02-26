@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 2.md",
+                "file": "4. semester/SPO/Notes/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Lecture 3"
             }
           }
         ],
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 2.md",
+                "file": "4. semester/SPO/Notes/Lecture 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 2"
+              "title": "Outline of Lecture 3"
             }
           }
         ],
@@ -178,19 +178,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "ai_llm:Local LLM Chat": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "copilot:Open Copilot Chat": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "7211e26cd6403232",
   "lastOpenFiles": [
+    "4. semester/SPO/Notes/Lecture 2.md",
+    "4. semester/SS/Resources/Pasted image 20250224182643.png",
+    "4. semester/SPO/Notes/Lecture 3.md",
+    "4. semester/SPO/Resources/Pasted image 20250226202302.png",
+    "4. semester/SPO/Resources/Pasted image 20250226201438.png",
+    "4. semester/SPO/Resources/Pasted image 20250226200233.png",
+    "4. semester/SPO/Notes/Lecture 1.md",
+    "4. semester/CAOS/Notes/Lecture 2.md",
     "4. semester/CAOS/Notes/Lecture 3.md",
     "4. semester/CAOS/Notes/Lecture 4.md",
     "4. semester/CAOS/Notes/Lecture 1.md",
-    "4. semester/CAOS/Notes/Lecture 2.md",
     "4. semester/CAOS/Extra stuff/x64_cheatsheet.pdf",
     "4. semester/CAOS/Extra stuff/GDB Cheat Sheet.pdf",
     "4. semester/CAOS/Slides/04-plenum.pdf",
@@ -205,19 +208,13 @@
     "4. semester/SS/Resources/Pasted image 20250220073612.png",
     "4. semester/SS/Exercises/Solutions/tut00_solution.pdf",
     "4. semester/SS/Exercises/Solutions",
-    "Pasted image 20250224182643.png",
     "4. semester/SS/Resources/Pasted image 20250224182541.png",
     "4. semester/SS/Resources/Pasted image 20250224180601.png",
     "4. semester/SS/Resources/Pasted image 20250224175611.png",
     "4. semester/SS/Slides/01 finite automata.pdf",
     "4. semester/SS/Resources/01 finite automata.pdf.crdownload",
     "4. semester/SS/Resources/Pasted image 20250220095416.png",
-    "4. semester/SS/Resources/Pasted image 20250220093450.png",
-    "4. semester/SS/Resources/Pasted image 20250220090238.png",
-    "4. semester/SPO/Notes/Lecture 2.md",
-    "4. semester/SPO/Notes/Lecture 1.md",
     "4. semester/SPO/Important stuff.md",
-    "4. semester/SPO/Resources/Pasted image 20250220085745.png",
     "4. semester/Projekt Noter/Projektforslag.md",
     "sti/til/fil.pdf.md",
     "3. semester/OOP/Design Patterns.md",
@@ -230,7 +227,6 @@
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 6/Chapter 7.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 5/Part III + Chapter 6.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 4/Chapter 5.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 3/Chapter 4.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 2/Part II + Chapter 3.md"
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 3/Chapter 4.md"
   ]
 }
