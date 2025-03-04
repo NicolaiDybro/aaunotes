@@ -1,99 +1,134 @@
-# Mathematical Preliminaries & Notation
 
-## Sets
+# Strings and Languages
 
-* **Definition:** A set is a group of objects (e.g., numbers, symbols, other sets).
-* **Elements:** The objects in a set are called elements or members.
-* **Notation:**
-    * Listing elements: `{7, 21, 57}`, `{x, y, z, ...}`
-    * Rule of membership: `{n | n = 2m for some m ∈ ℕ}`
-* **Key Sets:**
-    * Empty set: `∅ = {}`
-    * Natural numbers: `ℕ = {0, 1, 2, 3, ...}`
-    * Integers: `ℤ = {..., -2, -1, 0, 1, 2, ...}`
-    * Rationals: `ℚ = {n/m | n, m ∈ ℤ and m ≠ 0}`
-* **Basic Definitions:**
-    * Subset: `A ⊆ B` (every member of A is a member of B)
-    * Proper subset: `A ⊂ B` (A ⊆ B and A ≠ B)
-    * Union: `A ∪ B` (smallest set containing all elements of A and B)
-    * Intersection: `A ∩ B` (biggest set containing elements common to A and B)
-    * Set difference: `A \ B` (elements of A that are not in B)
-    * Cartesian product: `A × B = {(a, b) | a ∈ A and b ∈ B}`
-    * Power set: `P(A)` or `2^A` (set of all subsets of A)
+- An alphabet is a finite nonempty set
+    - Examples: Σ1 = {0,1}, Σ2 = {a,b,c,...,x,y,z}, ...
+- The members of an alphabet are called symbols
+- A string (or word) over an alphabet is a finite sequence of symbols
+    - Examples: 0, 001, 0011, ... are all strings over Σ1; word, alphabet, aaabbb, are strings over Σ2;
+    - Non-examples: 0+1, a~b, are not strings over Σ1 or Σ2
+- The empty string, written ε, is the string with no symbols
+- A language over the alphabet Σ is a set of strings over Σ. We denote by Σ* the language of all strings over Σ.
 
-## Sequences and Tuples
+# Substrings
 
-* **Sequence:** An ordered list of elements.
-* **Tuple:** A finite sequence.
-* **Notation:** `(a1, a2, ..., an)`
-* **Cartesian Product (tuples):** `A × B = {(a, b) | a ∈ A, b ∈ B}`
+Let w be a string over the alphabet Σ
 
-## Relations
+- A string z is a substring of w if z appears consecutively within w;
+    - Examples: Let w = abracadabra. ε, abra, cada, abracadabra, ... are substrings of w
+- A string x is a prefix of w if x appears at the beginning of w;
+    - Examples: ε, abra, abracada, abracadabra are prefixes of w
+- A string y is a suffix of w if y appears at the end of w;
+    - Examples: ε, abra, cadabra, ..., abracadabra are suffixes of w
 
-* **Definition:** A relation between sets A and B is a subset of `A × B`.
-* **Notation:** `R ⊆ A × B`
-* **Types:**
-    * Binary relation: A relation between two sets.
-    * n-ary relation: A relation among n sets.
-* **Properties of Binary Relations:**
-    * Reflexive: `∀a ∈ A, (a, a) ∈ R`
-    * Symmetric: `∀a, b ∈ A, (a, b) ∈ R ⇒ (b, a) ∈ R`
-    * Transitive: `∀a, b, c ∈ A, (a, b) ∈ R and (b, c) ∈ R ⇒ (a, c) ∈ R`
-    * Equivalence relation: reflexive, symmetric, and transitive.
-    * Partial order: reflexive, anti-symmetric and transitive.
-    * Total order: Partial order where every pair of elements are comparable.
+# String Concatenation
 
-![[Pasted image 20250220073612.png]]
+- Given strings w and w' over the same alphabet, the concatenation of w and w', written ww', is the string obtained by appending w' to the end of w. w^k = ww...w (k times)
+    - Examples: For w = ab and w' = cd, ww' = abcd, w'w = cdab, w^3 = ababab, ...
+- Note that...
+    - The empty string is the identity element: ∀w. (wε = w = εw);
+    - If x is a prefix of w, then w = xw' for some w';
+    - If y is a suffix of w, then w = w'y for some w';
+    - If z is a substring of w, then w = w'zw'' for some w', w'';
 
-## Functions
+# Last definitions ...
 
-* **Definition:** A function `f: A → B` is a relation where each element of A is associated with exactly one element of B.
-* **Domain:** A
-* **Codomain:** B
-* **Range:** `{f(a) | a ∈ A}`
-* **Types:**
-    * Total function: Defined for all elements in A.
-    * Partial function: Defined for some elements in A.
-    * Injective (one-to-one): `∀a1, a2 ∈ A, f(a1) = f(a2) ⇒ a1 = a2`
-    * Surjective (onto): `∀b ∈ B, ∃a ∈ A, f(a) = b`
-    * Bijective: Injective and surjective.
+- The length of a word w, written |w|, is the number of symbols it contains.
+    - Examples: |abc| = 3, |abracadabra| = 11, |ε| = 0.
+- The reverse of w, written w^R, is the string obtained by writing w in the opposite order.
+    - Examples: (abc)^R = cba, (abracadabra)^R = arbadacarba, ε^R = ε, (abba)^R = abba, (eve)^R = eve. (palindromes)
+- If the alphabet Σ is ordered, then the set of strings over Σ can be ordered lexicographically: w ≤ w' ⇔ (w is a prefix of w' or ∃a ≤ b ∈ Σ. ua is a prefix of w, ub is a prefix of w')
 
-## Boolean Logic and Logical Notation
+# A simple Model of Computation
 
-* **Logical Operators:**
-    * AND: `∧`
-    * OR: `∨`
-    * NOT: `¬`
-    * Implication: `⇒`
-    * Equivalence: `⇔`
-* **Quantifiers:**
-    * Universal: `∀` (for all)
-    * Existential: `∃` (there exists)
+- It's an abstract prototype of digital computers used to develop a mathematical theory of computations.
+- "workers in the field, [...] have felt more and more that the notion of Turing machine is too general to serve as an accurate model of actual computers. It is well known that even for simple calculations it is impossible to give an a priori upper bound on the amount of tape a Turing machine will need for any given computation. It is precisely this features that renders Turing's concept unrealistic" - Rabin, M. and Scott, D. Finite automata and their decision problems. IBM Journal of Research and Development, vol. 3 (1959), pp. 114 - 125.
 
-![[Pasted image 20250220080040.png]]
+# Finite automata are models for computers with an extremely limited amount of memory
 
-## Types of Proofs
+- Example: Controller for automatic door
+    - Two sensors (on front pad; on rear pad), hence 4 input possibilities: BOTH, only FRONT, only REAR, NEITHER
+    - States: OPEN, CLOSED
 
-* **Proof by Construction:** Showing existence by creating an example.
-* **Proof by Contradiction:** Assume the opposite and derive a contradiction.
-* **Proof by Induction:**
-    * Base case: Prove for the smallest element(s).
-    * Inductive step: Assume true for n, prove true for n+1.
-* **Well-founded induction:**
-    * Base case: proves P(x) for all minimal elements of X.
-    * Inductive step: proves that, for each i ∈ X , if P(j) is true for all j ⊏ i, then so is P(i).
+# Finite Automaton
 
-## Well-Founded Sets and Induction.
+## Definition
 
-* **Well-founded set:** A set with a relation ⊏ such that there are no infinite descending chains.
-* **Examples:**
-    * Natural numbers with `<`.
-    * Lexicographic order on `ℕ × ℕ`.
-    * Algebraic expressions with "subexpression" relation.
+A finite automaton is a 5-tuple (Q, Σ, δ, q0, F), where
 
-## Well-founded induction Example.
+- Q is a finite set of states,
+- Σ is a finite set called alphabet,
+- δ: Q × Σ → Q is the transition function (exactly one next state for each input symbol in each state),
+- q0 ∈ Q is the start state (or initial state) (there must always be a starting state),
+- F ⊆ Q is the set of accept states (or final states) (there can be 0 accept states, or several). It is possible that the start state is also an accept state (q0 ∈ F).
 
-* Proof that a binary tree T of height h(T) has at most 2<sup>h(T)</sup> leaves.
-* Use well-founded induction on the set of binary trees, ordered by "is a proper subtree of".
-* Base case: Empty tree.
-* Inductive step: Assume true for subtrees, prove true for the tree.
+# Example of Finite Automaton
+
+## State diagram
+
+- input-labelled transition
+- pointy arrow to indicate start state
+- double circle to indicate accept states
+- Example: M1
+    - Q = {q1, q2, q3}
+    - Σ = {0,1}
+    - q0 = q1
+    - δ: Q × Σ → Q (tabular definition)
+    - F = {q2}
+    - δ(q1,0) = q1, δ(q1,1) = q2
+    - δ(q2,0) = q3, δ(q2,1) = q2
+    - δ(q3,0) = q2, δ(q3,1) = q2
+- Observe how the automaton processes the strings
+    - 1101 (accept)
+    - 001100 (reject)
+    - 11010 (accept)
+
+# When an automaton processes a string of symbols over its alphabet, it outputs:
+
+- accept (when it finishes in an accept state)
+- reject (otherwise) Note that this automaton accepts any string ending in 1.
+
+# Formal definition of Computation
+
+Let M = (Q, Σ, δ, q0, F) be an FA and w = a1a2…an be a string where each ai ∈ Σ. Then, M accepts w if there exists a sequence r0, r1, …, rn of states in Q satisfying the following 3 conditions:
+
+1. r0 = q0
+2. δ(ri, ai+1) = ri+1 for i ∈ {0,…, n-1}
+3. rn ∈ F
+
+- Definition:
+    - The language of M, denoted by L(M), is {w ∣ M accepts w};
+    - We say that M recognises a language A, when A = L(M)
+- Definition: r0, r1, …, rn is the computation sequence for w in M.
+
+# Examples of Finite Automata
+
+- Example 1: M2
+    - L(M2) = {w ∣ w ends in 1}
+- Example 2: M3
+    - L(M3) = {w ∣ w ends in 0} ∪ {ε}
+- Example 3: M4
+    - L(M4) = ∅
+- Example 4: M5
+    - L(M5) = {w ∣ w starts and ends with the same symbol} = {xwx ∣ x ∈ Σ and w ∈ Σ*} ∪ {a, b}
+
+# Regular Languages
+
+- A language is regular is some finite automaton recognizes it.
+- Definition: The language End1 = {w ∣ w ends in 1} is regular, as it is recognized by M2, in symbols, L(M2) = End1.
+
+# Designing Finite Automata
+
+- The question of regularity for a language is equivalent to designing a finite automaton recognizing the given language.
+- The best way to design an automaton is to put yourself in the place of the machine and try to processes an input string.
+    - Step 1: determine the states (they represent what you should remember about the input string read so far)
+    - Step 2: determine the transitions (they represent the actions the machine takes when a new symbol is processed)
+    - Step 3: determine start and accept states (they are the states where the machine start and completed its task)
+- A common sense design recipe
+
+# Automata design (Example)
+
+- Task: Design an automaton that recognise the language Odd = {w ∈ {0,1}* ∣ w has odd number of occurrences of 1}
+    - We just need to remember whether the number of inputs equal to 1 processed so far is either odd or even.
+    - By reading 1 we switch state; by reading 0 we stay where we are.
+    - Start and accept states are clear.

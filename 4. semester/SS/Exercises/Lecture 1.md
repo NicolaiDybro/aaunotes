@@ -1,61 +1,103 @@
-
-## Exercise 1
-![[Pasted image 20250220085745.png]]
-1. Dette er IKKE sandt
-2. Dette er sandt
-3. Dette er sandt
-4. Ikke sandt
-5. Sandt
-6. Ikke sandt
-7. Ikke sandt
-8. Sandt
-9. Ikke sandt
-10. Sandt
-11. Sandt
-12. Ikke sant
+![[Pasted image 20250224175611.png]]
 
 
-## Exercise 2
-![[Pasted image 20250220090238.png]]
-
-1.a) {x,y,z}
-1.b) {x, y}
-1.c) {Ø, {x}, {y}, {x,y}}
-1.d) {(x,x), (x,y), (y,x), (y,y), (z,x), (z,y)}
-
-2.a)
-$$ A \cup B = \{ x \mid x \in A \lor x \in B \} $$
-
-2.b)
-$$ A \cap B = \{ x \mid x \in A \land x \in B \} $$
-
-2.c)
-$$ \mathcal{P}(A) = \{ A' \mid A' \subseteq A \} $$
-
-2.d)
-
-$$ (A \times B)  \cap (C \times B) = \{ (x,y) \mid x \in A \land x \in C \land y \in B \} $$
-
-2.e)
-
-$$ (A \cap C)  \times B = \{ (a,b) \mid a \in A \land a \in C \land b \in B \} $$
+1. aaabba, aaaab, aabb, bbabba, bbaab, bbbb, bbbabba, bbbaab, bbbbb
+2. aa,bb, bbb, abba, aab, bb
+3. bb
+4. abba, aab, bb, abbaaab, aabbb ...
 
 
-2.f)
-$$ \mathcal{P}(\mathcal{P}(A)) = \{ F \mid F \subseteq \mathcal{P} (A) \} $$
-
-## Exercise 3
-
-![[Pasted image 20250220093450.png]]
+![[Pasted image 20250224180601.png]]
 
 
-1) $$ \exists m \in \mathbb{Z}: 2m > 8 $$
-2) $$ \forall n \in \mathbb{N}: (\exists k \in \mathbb{N}: n = 2k) \lor (\exists k \in \mathbb{N}: n = 2k + 1)  $$
-3)
- $$ \forall \varepsilon > 0 : (\exists N \in \mathbb{N}: (\forall n \geq N): (|x - x_n| \leq \varepsilon))$$
+1. 
+a) q1 -> q2 -> q3 -> q3 -> q3 -> q3
+b) q1 -> q2 ->  q3 -> q3 -> q3 -> q3 -> q3
+c) q1 -> q2 -> q3 -> q3
+d) q1
 
-![[Pasted image 20250220095416.png]]
-1. No, as there is 17 y and 17 z it should have been 48
-2. Yes, as $$ R \subseteq C \times D  $$
-3. No?
+2. 
+in m1: none
+in m2: d
+in m3:  d
+
+3.  
+$$L(M_1)=\{ b^na|n\ge0 \}$$
+$$L(M_2)=\{ b|n\ge0 \}$$
+$$L(M_3)=\{ b^n a^m|m\in\{0,1\}|n\ge0 \}$$
+
+![[Pasted image 20250224182541.png]]
+
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> q0
+
+    state q0 (q0)
+    state q1 (q1) #green
+    state q2 (q2)
+    state r1 (r1) #green
+    state r2 (r2)
+
+    q0 --> q1: a
+    q0 --> r1: b
+
+    q1 --> q1: a
+    q1 --> q2: b
+
+    q2 --> q1: a
+    q2 --> q2: b
+
+    r1 --> r2: a
+    r1 --> r1: b
+
+    r2 --> r2: a
+    r2 --> r1: b
+
+```
+
+
+$$L(M_4)=\{xwx|x\inΣ|w\inΣ^*\}\cup\{a,b\}$$
+r1 and q1 should be green
+
+![[Pasted image 20250224182643.png]]
+1. 
+```mermaid
+stateDiagram-v2
+    [*] --> q1
+    state q1 (q1)
+    state q2 (q2) 
+    state q3 (q3) #green
+    state q4
+    q1 --> q2: 1
+    q2 --> q4: 22
+    q2 --> q3: 1
+    q3 --> q4: 22
+    q4 --> q4: 1,22
+    q3 --> q3: 1,22
+```
+2. 
+
+```mermaid
+stateDiagram-v2
+    [*] --> q1
+    state q1 (q1)
+    q1 --> q1: 1,2,3
+```
+3. 
+```mermaid
+stateDiagram-v2
+    [*] --> q1
+    state q1 (q1)
+    q1 --> q2: 1,2,3
+```
 4. 
+```mermaid
+stateDiagram-v2
+    [*] --> q1
+    state q1 (q1)
+    q1 --> q2: go
+    q2 --> q2: go, stop
+	q2 --> q1: stop
+```
