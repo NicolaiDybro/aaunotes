@@ -181,8 +181,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7211e26cd6403232",
+  "active": "0824155f93eacacb",
   "lastOpenFiles": [
+    "4. semester/SS/Notes/Lecture 0.md",
+    "4. semester/SS/Exercises/Lecture 0.md",
+    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 5 - A horror story.pdf",
+    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 4 - About set equations.pdf",
+    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 3 - Building a lexer.pdf",
+    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 2 - DFA Minimization.pdf",
+    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 1 - From NFAs to DFAs.pdf",
+    "4. semester/SPO/Slides/Session 3",
+    "4. semester/CAOS/Y86-64 Reference.pdf",
+    "4. semester/CAOS/Y86-64 Reference.pdf.crdownload",
     "4. semester/Projekt Noter/Projektforslag.md",
     "4. semester/Projekt Noter/Kode eksempeler.md",
     "4. semester/SS/Resources/Pasted image 20250304125804.png",
@@ -209,16 +219,8 @@
     "4. semester/CAOS/Notes/Lecture 1.md",
     "4. semester/CAOS/Extra stuff/x64_cheatsheet.pdf",
     "4. semester/CAOS/Extra stuff/GDB Cheat Sheet.pdf",
-    "4. semester/CAOS/Slides/04-plenum.pdf",
-    "4. semester/CAOS/Slides/04-plenum.pdf.crdownload",
-    "4. semester/CAOS/Slides/04-assembler2.pdf",
-    "4. semester/CAOS/Slides/04-assembler2.pdf.crdownload",
     "4. semester/SS/Notes/Lecture 2.md",
     "4. semester/SS/Notes/Lecture 1.md",
-    "4. semester/SS/Exercises/Solutions/tut00_solution.pdf",
-    "4. semester/SS/Exercises/Solutions",
-    "4. semester/SS/Slides/01 finite automata.pdf",
-    "4. semester/SS/Resources/01 finite automata.pdf.crdownload",
     "4. semester/SPO/Important stuff.md",
     "sti/til/fil.pdf.md",
     "3. semester/OOP/Design Patterns.md",
@@ -226,8 +228,6 @@
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Lecture 11.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Chapter 14.md",
     "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 9/Part V + Chapter 12.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 8/Part IV + Chapter 9 + Chapter 10.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 6/Lecture.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 6/Chapter 7.md"
+    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 8/Part IV + Chapter 9 + Chapter 10.md"
   ]
 }
