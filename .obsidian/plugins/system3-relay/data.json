@@ -1,0 +1,46 @@
+{
+  "release": {
+    "channel": "stable"
+  },
+  "sharedFolders": [
+    {
+      "path": "4. semester",
+      "guid": "d4dee7a9-faff-4a0e-b327-5d286f8ed335",
+      "relay": "3fb197d0-67de-42fe-a14a-9ddfbc4df560",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    },
+    {
+      "path": "3. semester",
+      "guid": "d649ecd8-191a-497e-9255-762a2689b8a7",
+      "relay": "3fb197d0-67de-42fe-a14a-9ddfbc4df560",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      }
+    }
+  ],
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": false,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableDesyncPill": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "debugging": false
+}

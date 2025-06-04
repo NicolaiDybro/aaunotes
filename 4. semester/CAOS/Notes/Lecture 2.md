@@ -5,6 +5,7 @@ Bit-shifting er en operation, hvor alle bit i et tal flyttes enten til venstre e
 ## Typer af bit-shift
 
 ### Venstreskift (`<<`)
+
 - Flytter alle bit til venstre og fylder de tomme pladser med nuller.
 - Multiplicerer tallet med 2 for hver skiftning.
 - Eksempel:
@@ -126,6 +127,28 @@ IEEE 754 definerer også særlige værdier:
 - Overløb kan resultere i **∞**.
 - Afrundingsfejl kan akkumuleres og føre til upræcise resultater over tid.
 
+
+
+
+
+
+| Operator | Symbol | Navn            | Forklaring                                       | Eksempel (bitvis på 1 og 0) | Resultat                    |
+| -------- | ------ | --------------- | ------------------------------------------------ | --------------------------- | --------------------------- |
+| AND      | `&`    | Bitvis OG       | Giver 1 kun hvis begge bits er 1                 | 1 & 1                       | 1                           |
+|          |        |                 |                                                  | 1 & 0                       | 0                           |
+| OR       | `\|`   | Bitvis ELLER    | Giver 1 hvis mindst én af bits er 1              | 1 \| 0                      | 1                           |
+|          |        |                 |                                                  | 0 \| 0                      | 0                           |
+| XOR      | `^`    | Eksklusiv ELLER | Giver 1 kun hvis bits er forskellige             | 1 ^ 0                       | 1                           |
+|          |        |                 |                                                  | 1 ^ 1                       | 0                           |
+| NOT      | `~`    | Bitvis IKKE     | Inverterer alle bits (0 bliver 1, og 1 bliver 0) | ~1                          | 0 (men husk: to-komplement) |
+| NAND     | -      | IKKE OG         | Inverteret AND: Giver 0 kun hvis begge er 1      | NOT(1 & 1)                  | 0                           |
+| NOR      | -      | IKKE ELLER      | Inverteret OR: Giver 1 kun hvis begge er 0       | NOT(1 \| 0)                 | 0                           |
+
+
+
+
+
+
 ## Eksempler og opgaver
 ### Eksempel: Binære brøker
 Binære tal kan repræsentere nogle rationelle tal præcist, men ikke alle:
@@ -158,3 +181,7 @@ Hvad sker der, hvis vi konverterer et 64-bit floating-point tal til et 16-bit si
 - Dette skete med **Ariane 5**, hvor en fejl i konverteringen førte til et raketnedbrud til en værdi af 500 millioner euro!
 
 Flydende kommatal er vigtige for numeriske beregninger, men kræver forståelse af præcision og fejl!
+
+
+
+
