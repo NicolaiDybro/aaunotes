@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 3.md",
+                "file": "4. semester/CAOS/Notes/Lecture 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3"
+              "title": "Lecture 6"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 3.md",
+                "file": "4. semester/CAOS/Notes/Lecture 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 3"
+              "title": "Backlinks for Lecture 4"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 3.md",
+                "file": "4. semester/CAOS/Notes/Lecture 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 3"
+              "title": "Outgoing links from Lecture 4"
             }
           },
           {
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semester/CAOS/Notes/Lecture 3.md",
+                "file": "4. semester/CAOS/Notes/Lecture 6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 3"
+              "title": "Outline of Lecture 6"
             }
           }
         ],
@@ -212,11 +212,23 @@
   },
   "active": "00bb465f27b8a4bd",
   "lastOpenFiles": [
-    "4. semester/CAOS/Notes/Lecture 2.md",
-    "4. semester/CAOS/Notes/Lecture 3.md",
-    "4. semester/CAOS/Notes/Lecture 1.md",
-    "4. semester/CAOS/Notes/Lecture 4.md",
     "4. semester/CAOS/Notes/Lecture 5.md",
+    "4. semester/CAOS/Notes/Lecture 6.md",
+    "4. semester/CAOS/Slides/06-machine1v3.pdf",
+    "4. semester/CAOS/Slides/06-machine1v3.pdf.crdownload",
+    "4. semester/CAOS/Notes/Lecture 3.md",
+    "4. semester/CAOS/Slides/!CAOS-Slides-Merged.pdf",
+    "4. semester/CAOS/Slides/05-assembler3.pdf",
+    "4. semester/CAOS/Slides/05-assembler3.pdf.crdownload",
+    "4. semester/CAOS/Notes/Lecture 4.md",
+    "4. semester/CAOS/Notes/Lecture 12.md",
+    "4. semester/CAOS/Notes/Lecture 11.md",
+    "4. semester/CAOS/Notes/Lecture 10.md",
+    "4. semester/CAOS/Notes/Lecture 9.md",
+    "4. semester/CAOS/Notes/Lecture 8.md",
+    "4. semester/CAOS/Notes/Lecture 7.md",
+    "4. semester/CAOS/Notes/Lecture 2.md",
+    "4. semester/CAOS/Notes/Lecture 1.md",
     "4. semester/CAOS/Extra stuff/x64_cheatsheet.pdf",
     "4. semester/CAOS/Extra stuff/GDB Cheat Sheet.pdf",
     "4. semester/CAOS/Y86-64 Reference.pdf",
@@ -224,14 +236,9 @@
     "4. semester/SPO/Important stuff.md",
     "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 2 - DFA Minimization.pdf",
     "4. semester/SPO/Slides/Session 2/Session 2 - Part 4 - Nondeterministic Finite Automata.pdf",
-    "4. semester/SPO/Slides/Session 2/Session 2 - Part 3 - Regular expressions.pdf",
     "4. semester/SPO/Notes/Lecture 2.md",
-    "4. semester/CAOS/Slides/03-assembly1-bait.pdf",
     "4. semester/SS/Notes/Lecture 0.md",
     "4. semester/SS/Exercises/Lecture 0.md",
-    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 5 - A horror story.pdf",
-    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 4 - About set equations.pdf",
-    "4. semester/SPO/Slides/Session 3/Session 3 - Lexical Analysis 2 - Part 3 - Building a lexer.pdf",
     "4. semester/Projekt Noter/Projektforslag.md",
     "4. semester/Projekt Noter/Kode eksempeler.md",
     "4. semester/SS/Resources/Pasted image 20250304125804.png",
@@ -249,13 +256,6 @@
     "4. semester/SS/Resources/Pasted image 20250224182643.png",
     "4. semester/SPO/Resources/Pasted image 20250226202302.png",
     "4. semester/SPO/Resources/Pasted image 20250226201438.png",
-    "4. semester/SPO/Notes/Lecture 1.md",
-    "4. semester/SS/Notes/Lecture 2.md",
-    "4. semester/SS/Notes/Lecture 1.md",
-    "sti/til/fil.pdf.md",
-    "3. semester/OOP/Design Patterns.md",
-    "3. semester/OOP/Java/Inheritance.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Lecture 11.md",
-    "3. semester/(SU - SAD) - Systems Development - System Analysis and De/SU SAD/Lecture 11/Chapter 14.md"
+    "4. semester/SPO/Notes/Lecture 1.md"
   ]
 }
