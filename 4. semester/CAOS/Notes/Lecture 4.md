@@ -28,6 +28,74 @@
 - Aritmetiske og logiske operationer
     
 
+
+### Instruktions tabel
+
+| Instruction | Meaning                      | Description / Use-case                                                   |
+|-------------|-------------------------------|---------------------------------------------------------------------------|
+| mov         | Move                          | Copies data from source to destination                                   |
+| leaq        | Load Effective Address        | Computes a memory address and stores it in a register (no dereference)   |
+| add         | Add                           | Adds source to destination                                               |
+| sub         | Subtract                      | Subtracts source from destination                                        |
+| imul        | Integer Multiply              | Multiplies operands (signed)                                             |
+| idiv        | Integer Divide                | Divides `rdx:rax` by operand, quotient in `rax`, remainder in `rdx`      |
+| xor         | Exclusive OR                  | Often used to zero a register (`xor %rax, %rax`)                         |
+| cmp         | Compare                       | Subtracts operands and sets flags (but doesn't store result)             |
+| test        | Bitwise AND + flag update     | Like `cmp`, but performs `AND`                                           |
+| jmp         | Jump                          | Unconditional jump                                                       |
+| je/jne      | Jump if equal / not equal     | Conditional jump based on comparison                                     |
+| call        | Call function                 | Pushes return address, jumps to function                                 |
+| ret         | Return                        | Pops return address into `%rip`, returns to caller                       |
+| push        | Push to stack                 | Decreases `%rsp`, stores value                                           |
+| pop         | Pop from stack                | Loads value from `%rsp`, then increases `%rsp`                           |
+
+### register tabel
+
+| Register  | Traditional Name  | Role / Typical Use                                         |
+| --------- | ----------------- | ---------------------------------------------------------- |
+| %rax      | Accumulator       | Return values from functions; general arithmetic           |
+| %rbx      | Base              | General purpose; preserved across function calls           |
+| %rcx      | Counter           | Used in loops and certain instructions                     |
+| %rdx      | Data              | Function argument #2; also used in multiplication/division |
+| %rsi      | Source Index      | Function argument #2 (Linux); string/memory source         |
+| %rdi      | Destination Index | Function argument #1 (Linux); string/memory destination    |
+| %rsp      | Stack Pointer     | Points to the top of the stack                             |
+| %rbp      | Base Pointer      | Used to reference function local variables                 |
+| %rip      | Instruction Ptr   | Holds address of next instruction                          |
+| %r8–%r9   |                   | Function arguments #5–#6 (Linux calling convention)        |
+| %r10–%r11 |                   | Scratch registers (not preserved across calls)             |
+| %r12–%r15 |                   | General purpose; preserved across calls                    |
+|           |                   |                                                            |
+#### Caller eller callee register
+
+| Register | Funktion        | Bevares af | Brug                                       |     |
+| -------- | --------------- | ---------- | ------------------------------------------ | --- |
+| %rax     | Returnværdi     | Caller     | Return value, midlertidige beregninger     |     |
+| %rbx     | General purpose | Callee     | Skal gendannes af callee                   |     |
+| %rcx     | 4. parameter    | Caller     | Bruges også til loops og system calls      |     |
+| %rdx     | 3. parameter    | Caller     | Funktionens tredje argument                |     |
+| %rsi     | 2. parameter    | Caller     | Funktionens andet argument                 |     |
+| %rdi     | 1. parameter    | Caller     | Funktionens første argument                |     |
+| %r8      | 5. parameter    | Caller     | Funktionens femte argument                 |     |
+| %r9      | 6. parameter    | Caller     | Funktionens sjette argument                |     |
+| %r10     | Midlertidig     | Caller     | Bruges til system calls og intern brug     |     |
+| %r11     | Midlertidig     | Caller     | Bruges til system calls og intern brug     |     |
+| %r12     | General purpose | Callee     | Skal gendannes af callee                   |     |
+| %r13     | General purpose | Callee     | Skal gendannes af callee                   |     |
+| %r14     | General purpose | Callee     | Skal gendannes af callee                   |     |
+| %r15     | General purpose | Callee     | Skal gendannes af callee                   |     |
+| %rbp     | Frame pointer   | Callee     | Bruges ofte til stack-frame (kan udelades) |     |
+| %rsp     | Stack pointer   | Callee     | Skal altid bevares korrekt (automatisk)    |     |
+
+### Størrelses suffixer
+
+| Suffix | Navn (traditionel) | Bitstørrelse | Antal bytes | Bruges til registre         | Eksempelinstruktion |
+|--------|---------------------|--------------|-------------|-----------------------------|----------------------|
+| b      | Byte                | 8 bits       | 1 byte      | `%al`, `%bl`, `%cl`, `%dl`  | `movb $1, %al`       |
+| w      | Word                | 16 bits      | 2 bytes     | `%ax`, `%bx`, `%cx`, `%dx`  | `movw $1, %ax`       |
+| l      | Long                | 32 bits      | 4 bytes     | `%eax`, `%ebx`, `%ecx`      | `movl $1, %eax`      |
+| q      | Quadword            | 64 bits      | 8 bytes     | `%rax`, `%rbx`, `%rcx`      | `movq $1, %rax`      |
+
 ## Kontrol- og datastrukturer
 
 - Sammenligning & betingelsesflag:

@@ -145,10 +145,45 @@ IEEE 754 definerer også særlige værdier:
 | NOR      | -      | IKKE ELLER      | Inverteret OR: Giver 1 kun hvis begge er 0       | NOT(1 \| 0)                 | 0                           |
 
 
+### **Generelle registre (General Purpose Registers)**
+
+Disse bruges til midlertidige værdier, parametre, returneringsværdier, tællere osv.
+
+| Register          | Navn (traditionel) | Typisk brug                                                  |
+| ----------------- | ------------------ | ------------------------------------------------------------ |
+| `rax`             | Accumulator        | Returneringsværdi fra funktioner                             |
+| `rbx`             | Base               | Generel brug, ofte bevaret på tværs af funktionkald          |
+| `rcx`             | Counter            | Bruges ofte som tæller i loops og ved visse instruktioner    |
+| `rdx`             | Data               | Bruges ofte til funktionens 2. parameter og I/O              |
+| `rsi`             | Source Index       | Bruges til input (f.eks. 2. parameter) og strengeoperationer |
+| `rdi`             | Destination Index  | Bruges til input (f.eks. 1. parameter) og strengeoperationer |
+| `r8–r9–r10–r11`   | Ekstra registre    | Bruges til funktionens 3.-6. parametre og generelle formål   |
+| `r12–r13–r14–r15` | Flere registre     | General purpose, ofte bevaret på tværs af funktionkald       |
+
+>**Calling convention i Linux (System V AMD64 ABI)**:
+>- Parametre placeres i rækkefølge i: `rdi`, `rsi`, `rdx`, `rcx`, `r8`, `r9`
+>- Returneringsværdi: `rax`
 
 
+### **Stack-registere**
 
+|Register|Navn|Typisk brug|
+|---|---|---|
+|`rsp`|Stack Pointer|Pegepind til toppen af stacken (bruges til push/pop og funktionskald)|
+|`rbp`|Base Pointer (Frame Pointer)|Bruges til at referere til lokale variabler og parametre i ældre kode eller debugging|
 
+> I moderne compiler-optimeret kode (f.eks. med "frame pointer omission") bruges ofte kun `rsp`.
+
+### **Instruktionsregister**
+
+| Register | Navn                | Typisk brug                                               |
+| -------- | ------------------- | --------------------------------------------------------- |
+| `rip`    | Instruction Pointer | Indeholder adressen på næste instruktion der skal udføres |
+### **Status- og flagregister**
+
+| Register | Navn           | Typisk brug                                                                                                                    |
+| -------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `rflags` | Flags-register | Indeholder forskellige bits som ZF (zero flag), CF (carry flag), SF (sign flag) osv., brugt til at styre flow (fx efter `cmp`) |
 ## Eksempler og opgaver
 ### Eksempel: Binære brøker
 Binære tal kan repræsentere nogle rationelle tal præcist, men ikke alle:
