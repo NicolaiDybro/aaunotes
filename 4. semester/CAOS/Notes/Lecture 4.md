@@ -85,16 +85,14 @@
 | %r14     | General purpose | Callee     | Skal gendannes af callee                   |     |
 | %r15     | General purpose | Callee     | Skal gendannes af callee                   |     |
 | %rbp     | Frame pointer   | Callee     | Bruges ofte til stack-frame (kan udelades) |     |
-| %rsp     | Stack pointer   | Callee     | Skal altid bevares korrekt (automatisk)    |     |
+| %rsp     | Stack pointer   | Callee     | Skal altid bevares korrekt (automatisk)    |     |### Størrelses suffixer
 
-### Størrelses suffixer
-
-| Suffix | Navn (traditionel) | Bitstørrelse | Antal bytes | Bruges til registre         | Eksempelinstruktion |
-|--------|---------------------|--------------|-------------|-----------------------------|----------------------|
-| b      | Byte                | 8 bits       | 1 byte      | `%al`, `%bl`, `%cl`, `%dl`  | `movb $1, %al`       |
-| w      | Word                | 16 bits      | 2 bytes     | `%ax`, `%bx`, `%cx`, `%dx`  | `movw $1, %ax`       |
-| l      | Long                | 32 bits      | 4 bytes     | `%eax`, `%ebx`, `%ecx`      | `movl $1, %eax`      |
-| q      | Quadword            | 64 bits      | 8 bytes     | `%rax`, `%rbx`, `%rcx`      | `movq $1, %rax`      |
+| Suffix | Navn (traditionel) | Bitstørrelse | Antal bytes | Bruges til registre        | Eksempelinstruktion | Tilhørende typer |
+| ------ | ------------------ | ------------ | ----------- | -------------------------- | ------------------- | ---------------- |
+| b      | Byte               | 8 bits       | 1 byte      | `%al`, `%bl`, `%cl`, `%dl` | `movb $1, %al`      | char             |
+| w      | Word               | 16 bits      | 2 bytes     | `%ax`, `%bx`, `%cx`, `%dx` | `movw $1, %ax`      | short            |
+| l      | Long               | 32 bits      | 4 bytes     | `%eax`, `%ebx`, `%ecx`     | `movl $1, %eax`     | int              |
+| q      | Quadword           | 64 bits      | 8 bytes     | `%rax`, `%rbx`, `%rcx`     | `movq $1, %rax`     | long             |
 
 ## Kontrol- og datastrukturer
 
