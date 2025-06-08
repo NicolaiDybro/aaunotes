@@ -64,18 +64,15 @@
           {
             "id": "8ffce6ef959601b4",
             "type": "leaf",
-            "dimension": 25,
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "4. semester/CAOS/Extra stuff/CAOS Quizzes Merged.pdf",
-                "page": 7,
-                "left": -4,
-                "top": 761,
-                "zoom": 3.394766262926332
+                "file": "4. semester/CAOS/Notes/!Terminal Commands.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "CAOS Quizzes Merged"
+              "icon": "lucide-file",
+              "title": "!Terminal Commands"
             }
           }
         ],
@@ -198,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semester/CAOS/Extra stuff/CAOS Quizzes Merged.pdf",
+                "file": "4. semester/CAOS/Notes/!Terminal Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CAOS Quizzes Merged"
+              "title": "Outline of !Terminal Commands"
             }
           }
         ],
@@ -230,8 +227,13 @@
   },
   "active": "0824155f93eacacb",
   "lastOpenFiles": [
-    "4. semester/CAOS/Notes/Lecture 6.md",
+    "4. semester/CAOS/Code Examples/program_x86",
+    "4. semester/CAOS/Code Examples/a.out",
+    "4. semester/CAOS/Code Examples/konverter.c",
+    "4. semester/CAOS/Code Examples",
     "4. semester/CAOS/Extra stuff/CAOS Quizzes Merged.pdf",
+    "4. semester/CAOS/Notes/!Terminal Commands.md",
+    "4. semester/CAOS/Notes/Lecture 6.md",
     "4. semester/CAOS/Notes/!Quiz Ekstra Notes.md",
     "4. semester/CAOS/Notes/Untitled.canvas",
     "4. semester/CAOS/Notes/Lecture 1.md",
@@ -249,10 +251,7 @@
     "4. semester/CAOS/Slides/12-concurrency2.pdf",
     "4. semester/CAOS/Slides/12-concurrency2.pdf.crdownload",
     "4. semester/CAOS/Slides/11-concurrency-1.pdf",
-    "4. semester/CAOS/Slides/11-concurrency-1.pdf.crdownload",
     "4. semester/CAOS/Notes/Lecture 8.md",
-    "4. semester/CAOS/Slides/10-virtual-memory.pdf",
-    "4. semester/CAOS/Slides/10-virtual-memory.pdf.crdownload",
     "4. semester/CAOS/Notes/Lecture 5.md",
     "Untitled 1.canvas",
     "2025-06-07.md",
@@ -270,7 +269,6 @@
     "4. semester/SS/Resources/Pasted image 20250304124754.png",
     "4. semester/SS/Exercises/Lecture 3.md",
     "4. semester/SS/Resources/Pasted image 20250304123012.png",
-    "4. semester/SS/Exercises/Lecture 1.md",
     "4. semester/SS/Resources/Pasted image 20250304113441.png",
     "4. semester/SS/Resources/Pasted image 20250304113431.png",
     "4. semester/SS/Resources/Pasted image 20250304111632.png",
