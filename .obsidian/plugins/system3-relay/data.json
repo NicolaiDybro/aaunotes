@@ -13,7 +13,8 @@
         "videos": true,
         "pdfs": true,
         "otherTypes": false
-      }
+      },
+      "connect": true
     },
     {
       "path": "3. semester",
