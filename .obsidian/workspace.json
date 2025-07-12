@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. semester/SS/Notes/!CheatSheet.md",
+                "file": "Mine private noter/Amsterdam tur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "!CheatSheet"
+              "title": "Amsterdam tur"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4. semester/SS/Notes/!CheatSheet.md",
+                "file": "Mine private noter/Amsterdam tur.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of !CheatSheet"
+              "title": "Outline of Amsterdam tur"
             }
           }
         ],
@@ -203,12 +203,15 @@
   },
   "active": "dbd897128632eadf",
   "lastOpenFiles": [
+    "2025-06-07.md",
+    "Mine private noter/Amsterdam tur.md",
+    "Mine private noter",
+    "4. semester/SS/Notes/!CheatSheet.md",
     "4. semester/SS/Notes/Lecture 0.md",
     "4. semester/SS/Slides/Opgaver-merged.pdf",
     "4. semester/SS/Slides/SS Quizzes Merged.pdf",
     "4. semester/SS/Exercises/Lecture 0.md",
     "4. semester/SS/Slides/SS Slides Merged.pdf",
-    "4. semester/SS/Notes/!CheatSheet.md",
     "4. semester/SS/Exercises/Lecture 1.md",
     "4. semester/SPO/Notes/Lecture 2.md",
     "4. semester/SPO/Notes/Lecture 1.md",
@@ -226,13 +229,11 @@
     "4. semester/SS/Exercises/Lecture 3.md",
     "4. semester/SS/Exercises/Lecture 2.md",
     "4. semester/CAOS/Extra stuff/CAOS Quizzes Merged.pdf",
-    "4. semester/CAOS/Extra stuff/Y86-64 Reference.pdf",
     "4. semester/CAOS/Notes/Lecture 10.md",
     "4. semester/CAOS/Notes/Lecture 1.md",
     "4. semester/CAOS/Notes/!Terminal Commands.md",
     "4. semester/CAOS/Notes/!Quiz Ekstra Notes.md",
     "4. semester/CAOS/Notes/Lecture 12.md",
-    "2025-06-07.md",
     "4. semester/CAOS/Notes/Lecture 11.md",
     "4. semester/CAOS/Notes/Lecture 9.md",
     "4. semester/CAOS/Notes/Lecture 6.md",
