@@ -27,21 +27,42 @@
         "pdfs": true,
         "otherTypes": false
       }
+    },
+    {
+      "path": "5. semester",
+      "guid": "934e50b2-b76d-4664-903b-d4701d723825",
+      "relay": "d3ba357a-6c74-4395-8300-37efa22b01a6",
+      "sync": {
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": true
+      }
     }
   ],
-  "enableUpdateYDocFromDiskBuffer": false,
+  "endpoints": {},
   "enableDocumentStatus": false,
   "enableNewLinkFormat": false,
   "enableDeltaLogging": false,
-  "enableHTTPSync": false,
-  "enableSyncMenu": true,
-  "enableDocumentServer": true,
   "enableDocumentHistory": false,
   "enableEditorTweens": false,
   "enableSyncModal": false,
-  "enableDesyncPill": false,
-  "enableAttachmentSync": true,
   "enableNetworkLogging": false,
   "enableCanvasSync": false,
-  "debugging": false
+  "enableVerifyUploads": false,
+  "enableAutomaticDiffResolution": false,
+  "enableDiscordLogin": false,
+  "enableSelfManageHosts": true,
+  "enableToasts": false,
+  "debugging": false,
+  "enableUpdateYDocFromDiskBuffer": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentServer": true,
+  "enableDesyncPill": false,
+  "enableAttachmentSync": true,
+  "enableMicrosoftLogin": true,
+  "enableGitHubLogin": true,
+  "enableOIDCLogin": true
 }

@@ -1,0 +1,295 @@
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING:
+
+PRODUCT PLANNING AND REFINEMENT
+
+JOHN STOUBY PERSSON
+
+Last lecture objectives
+
+
+
+An overview of eXtreme Programming (XP)
+
+Basic skills in estimation of software development tasks
+
+Prepared to chose and adapt a development method for a specific project
+
+Lecture objectives
+
+
+
+An overview of product planning and refinement techniques.
+
+Skills in working with product visions, roadmaps, user story mapping, the product backlog, and product planning.
+
+Competencies to manage the development of a software product.
+
+
+
+
+What is the difference between a project versus a product in:
+1. How many times is it delivered?
+2. What is most in focus: verifying all requirements are implemented or validating that they are fit for use?
+3. Which of the key activities in software engineering (Specification, design and development, validation, evolution) are considered?
+
+
+
+
+
+Product Planning
+
+A custom software project is unique A --> B
+A product demands ongoing development	A --> 8
+
+
+Succeeding with agile methods in software product teams:
+
+
+1. Product manager is product owner
+2. Product planning is shorter and rolling
+3. Do design as part of backlog refinement
+4. Design in small and independent chunks
+5. Replace requirements docs with prototypes & user stories
+6. 
+Let the team chunk functionality into sprints
+7. Socialize and communicate between team, PO and others
+8. Product increments are released to users when sufficient functionality is available
+9. Demo current state of product every sprint
+10. Train people in agile
+
+
+
+
+
+
+What is the difference between a project versus a product in how requirements are established from the understanding of needs and users:
+1. When are requirements established?
+2. How often are requirements adjusted?
+3. What drives changes to requirements?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRODUCT VISION AND ROADMAP (PICHLER)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+Product roadmaps
+
+
+Timeline
+
+
+
+
+
+
+
+
+Elevator Pitch
+
+For <target customer/user>
+who <statement of need> the <product name>
+       is a <product category> that provides these <key benefits>
+       unlike <primary competition> our product <is different in these ways>
+
+
+
+
+
+
+
+
+
+
+
+PRODUCT BACKLOG, SPRINT PLANNING, USER STORY MAPPING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12
+
+User Story delivery
+
+
+
+
+User Role (Who?)	End Result (Why?)
+
+
+
+
+As a <type of user>, I can <immediate goal> so that <reason>.
+
+
+
+
+
+
+
+
+2-4 weeks
+
+
+
+
+
+
+
+
+Sprint Backlog	Running tested features
+
+Product Backlog
+
+Personas (Roman Pichler)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What does the persona look like?
+What is its name?
+
+What are the persona's relevant charateristics and behaviors?
+
+Why would the persona want to use or buy the product?
+What benefit should be achieved?
+Which problem should be solved?
+
+User Story Mapping
+
+
+
+
+
+Story Map Process
+
+1. Frame: The big story (What, Who, Why)
+
+
+
+2. Map the big picture: The activities and high-level user tasks forming the backbone
+
+
+
+3. Explore: Breakdown into subtasks
+
+Story Map Process
+
+4. Slice out Viable Releases: Increments with named outcomes and sucess metrics
+
+
+
+
+5. Slice out a Development Strategy: An opening, mid, and endgame for the product
+
+Forecasting User Story Delivery (Fixed Scope or Time)
+(Video: Agile Product Ownership in a Nutshell)
+How much by?
+
+
+
+
+
+The iron triangle of project management
+
+Group exercises today
+
+Exercise 1: Establish a Product Vision either for your semester project or an imaginary product (30%)
+Exercise 2: Establish an elevator pitch (20%) Exercise 3: How is your product launched? (20%)
+Exercise 4: Brainstorm possible users and stakeholders of your product (10%)
+Exercise 5: Use the template and create 1-3 Personas (10%)
+Exercise 6: Establish a user story map for your product (20%)
+( 110% :) )
+
+Lecture objectives
+
+
+
+An overview of product planning and refinement techniques.
+
+Skills in working with product visions, roadmaps, user story mapping, the product backlog, and product planning.
+
+Competencies to manage the development of a software product.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

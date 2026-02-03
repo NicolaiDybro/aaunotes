@@ -1,0 +1,294 @@
+
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING: SUMMARY
+
+
+
+JOHN STOUBY PERSSON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topic
+
+5 min.	11 min.
+
+1 - 9
+
+Prepared presentation of the topic that reference appropriate curriculum stated on the course Moodle page
+
+Examination of topic
+
+
+
+
+
+
+
+
+
+1. Software Process Model - Waterfall / Incremental / Iterative
+2. Comparison of plan-driven and agile
+3. Key features of Scrum
+4. Key features of XP
+5. Product Planning and Refinement
+6. Risk Management
+7. Quality Management
+8. Configuration Management and DevOps
+9. Improving Agility
+
+
+
+
+Styrker og svagheder Ideer til forbedringLektionernes indhold
+(fx. antal af emner, dybde ved enkelte emner)??Øvelserne efter lektionerne
+(fx. øvelsestype, omfang og struktur)??Gæsteforelæsninger
+(Systematic's Scrumgame, RTX og TrackUnit)??Kursets relevans for din faglige profil
+(som studerende og færdiguddannet)??
+
+
+
+
+1. Software Process Model - Waterfall / Incremental / Iterative
+2. Comparison of plan-driven and agile
+3. Key features of Scrum
+4. Key features of XP
+5. Product Planning and Refinement
+6. Risk Management
+7. Quality Management
+8. Configuration Management and DevOps
+9. Improving Agility
+
+
+
+1. What is Software Engineering (SE) a response to? (complexity, failure)
+2. What are the SE process activities? (specification, design, development, validation, evolution)
+3. What is a software process model? (Set of related activities that leads to a software product)
+4. Describe the characteristics of the waterfall model. (Activities in sequence, handover of work products between phases, milestones, and related work products are used to monitor progress)
+5. Describe the incremental/iterative model (You slice the big plan into smaller slices)
+6. When should you consider to use waterfall? (On projects using embedded systems; are life critical; or very large)
+7. How can I determine if incremental/iterative or waterfall fits me? (Boehm: Analyze the home ground)
+8. Describe how the incremental model works, can it be plan-driven, can it be iterative? (You can iterate within increments; you can have increments planned)
+9. What are the advantages of the incremental/iterative model? ( a) price on requirements changes are less, b) easier to get feedback, c) customer gets earlier an opportunity to use part of the product and obtain the related value where use and value comes at the very end when using waterfall)
+10. What disadvantages are there? ( a) The process is invisible - management support for measurable progress can increase documentation cost, b) a software systems infrastructure tends to deteriorate as new increments are added)
+
+
+
+1. What is the difference between plan-driven and agile? (plan-driven aim to predict desired results, agile expects change and uses frequent inspection and adapt to create the best value)
+2. How do Böehm and Turner define primary factors? ( a) Application (small, rapid change, turbulent environment), b) Management (onsite, qualitative control, tacit knowledge), c) Technical (Prioritized informal requirements, simple design, d) People (Cockburn L2 and L3 developers)
+3. What is the meaning of the 5 axes in the Home Ground Decision Tool? (Criticality, Personnel, Dynamism, Culture, Size)
+4. Why do requirements change? (Business, technology, learning from use)
+5. What is continuous integration in agile, and how does it differ from prototype development? (A shippable product is maintained while prototypes should be discarded)
+6. XP practices (Customer on site, pair programming, planning game, TDD, continues integration, sustainable pace)
+7. Scrum vs. plan-driven roles (PO+SM+Team versus Lots of roles incl. Managers and specialists)
+8. Scrum practices (Sprint Planning+Daily Scrum+Sprint Review+Sprint Retrospective,+Backlog refinement)
+9. Agile vs. plan-driven Artifacts (Product Burndown+Sprint Burndown+Scrum board versus Project Plan, Gant chart, Requirement specification, etc.)
+10. Plan-driven counterparts (predict what to deliver, plan the work, work the plan, knowledge sharing through documentation)
+
+
+
+1. What is Scrum? (Iterative agile method)
+2. Describe essential elements from Scrum. ( a) Scrum roles, (Product Owner, Scrum Master, Team), b) Scrum practices (Sprint Planning+Daily Scrum+Sprint Review+Sprint Retrospective,+Backlog refinement), c) Scrum artifacts (e.g., Product Burndown+Sprint Burndown+Scrum board)
+3. What is the focus of Scrum in the development process? (Focus on an empirical instead of defined process, and therefore the three pillars of Scrum are Transparency, Inspect and Adapt)
+4. Can you mention one or more Core values in Scrum? (Commitment (to iteration goal), Focus (on iteration goals), Openness (to work and progress), Respect (or team responsibility), and Courage (for management to trust the team, for the team to take responsibility))
+5. Can you mention some typical errors or mistakes in the use of Scrum? ( a) Scrum master implemented as a manager who tells the team what to do (right way: Facilitator for the team), b) Customers are not involved in each iteration, c) New requirements or tasks are added to the team during iteration)
+6. Can you say something about eXtreme Programming (XP) and what techniques in particular fit Scrum? (e.g., Customer on-site, user stories, planning game, etc.)
+7. How do Böhm and Turner define the primary factors to balance plan-driven and agile? ( a) Application (small, rapid change, turbulent environment), b) Management (onsite, qualitative control, tacit knowledge), c) Technical (Prioritized informal requirements, simple design), d) People (Cockburn L2 and L3 developers)
+8. Why do requirements change? (Business, technology, learning from use)
+9. How can you manage requirements and requirements change? (Change process, analysis of impact)
+
+
+
+1. What is eXtreme Programming (XP)? (An agile (Iterative and incremental development method with a focus on collaboration, early software creation and skillful development practices))
+2. What values are XP based on, according to Larman? (Communication, Simplicity, Feedback, Courage)
+3. How is eXtreme Programming (XP) extreme? (E.g., if testing is good do it all the time)
+4. Name some of the key practices in XP? (unit test, pair review, Customer on-site, continuous integration, testing including Early test, Unit Test, and TDD).
+5. What is a user story? (Brief feature request, a promise for a conversation. Written on a card and criteria for confirmation written on the back)
+6. What is the format of a user story? ("As a <user> I want <feature> so that <why>")
+7. How does XP describe the Lifecycle of a System? (Exploration, Planning, Iterations to first release, production, maintenance)
+8. What is the iteration called in XP? (Iteration :) )
+9. What is Test Driven Development? (A work cycle: write test first, then simplest code to pass test, then refactor code)
+10. Why is Test Driven Development good? (You have a safety net, a low cost of defect, always doing small steps, Less fear to change code, and better code quality (readable, maintainable, less bugs))
+
+
+
+1. What main requirement activities are there? (Elicitation and analyses of needs, specification of requirements, validation of requirements)
+2. What are the steps in requirements elicitation? ( a) Discovery & Classification, b) Categorization c) Prioritization & Negotiation, d) Documentation)
+3. Why is it difficult to elicit requirements? (Many stakeholders with conflicting needs, stakeholders talk their own language, tacit knowledge and unconscious actions are not communicated, stakeholder and requirements engineer talk two different language)
+4. What techniques can be used to elicit requirements? (Interview, Ethnography, Prototypes)
+5. What is a recognized way to communicate requirements? (Stories / scenarios)
+6. How are requirements documented? ( a) Waterfall: Approved requirements document with strict change management, b) Scrum: Product vision and product backlog, reviewed and updated every sprint, c) Product Planning: Product vision, Release plans and/or product roadmaps, c) XP: User stories)
+7. How are requirements negotiated with stakeholders? ( a) Waterfall: Up front in the requirements phase - state it now or it will be difficult later to get it, b) Scrum: Ongoing refinement of product backlog with stakeholders, say what is most important now, we will continue, c) XP Customer on site)
+8. What is agile planning? (Welcomes changes, works from a prioritized product backlog, where content is constantly refined from the top and adjusted to learning. This is called sprint planning in Scrum and the planning game in XP)
+9. How can we estimate work? ( a) using experience-based estimation (Planning poker), b) Algorithmic- based use of models, c) velocity-based for the team measured in story points)
+
+
+
+1. What is a risk? (Something that may happen and causes a loss)
+2. Provide examples of risks and their categories. (categories: project, technical, business / risks: Keyperson from team leaves, a supplier is not delivering as promised)
+3. How do you do risk analysis?
+a) Identify risks and calculate risk exposure (RE = probability * loss) and describe consequence
+b) Prioritize according to risk exposure (RE), establish cut-line
+c) Establish for each risk above the cut-line (RMMM: mitigation (prevention) plan - how can we prevent risk to happen, contingency plan (management) plan - if it happens anyway, what do then do, how to monitor development of the risk - called RMMM plan
+4. How are risk management part of project management?
+a) Waterfall / plan-driven: a) Risk and risk plans are part of the plans in project management, b) Development of other plans contribute to identification of risk, c) It is planned how.
+b) Agile - inspect and adapt to produce the right product: a) Daily Scrum: Do you have any impediments, b) Sprint review: Inspects risk related to product and stakeholder, c) Sprint retrospective: Addresses risks related to how the team works.
+5. What is the spiral model and how is it related to risk management? (uses prototypes iteratively to assess risks)
+6. What are Boehm's primary risks? (Personnel shortcomings, unrealistic schedule, wrong function, ..)
+
+
+
+1. How can quality be defined? (Correspondence between experience and expectation of a product)
+2. How is quality assured? (We plan how and when to do verification and validation)
+3. What is Verification and Validation? (VER = compliant to spec, VAL = fit for use)
+4. What techniques do we typically use for verification and validation? (Test is often used for verification, and review or evaluation are used for validation)
+5. What is the difference between review and test? (Review is static, and there are no interactions between errors found in review. Test is dynamic, and after first bug, other bugs may be a side-effect)
+6. Why can't we have all quality attributes? (tradeoffs are necessary, e.g., reusability vs efficiency)
+7. What is the V-model? (A model showing the relationship between test at different levels and primary activities driving the test: ( a)acceptance testing, b) system testing, c) system integration testing, d) sub- system integration testing, e) unit testing.
+8. What is the agile testing quadrant? (An agile categorization of different types of test (can be considered an alternative to the V-model) along two axes: Technology facing <----> Business Facing and Support the team <-- --> Critique the product)
+9. What agile practices support V&V? ( a) Definition of Done, b) Sprint Review, c) Check before check-in, d) Never break the build, e) Fix problems when you see them, f) Culture where team members assumes responsibility for ensuring high quality, g) XP: Customer on site, h) XP: Pair programming
+
+
+1. What is CM concerned with? (Policies, processes & tools for managing changing software systems)
+2. What are the key activities in CM? (Version management, System building, Change management, and release management)
+3. What is CM, branching, merging (Techniques to support release, builds, baselines)
+4. What is a baseline? (a description of a release that allows us to build the release again in the future. It includes a description of the version of code files that go into the release, AND any documentation and external libraries as it was when the release was created.)
+5. What goes into a release? (All code, data, configuration files, documentation)
+6. What is DevOps, and how can you define it? (DevOps is a practice of both the development and the operations, and a development method for the IT systems that connect the different activities in the project. It is also defined by The Three Ways: Flow, Feedback, and continuous learning.)
+7. What is the purpose of Continuous Integration? (When the code is checked in, it will then automatically be integrated with a tool. CI will integrate the developers' work as early/often, and get them constantly tested.)
+8. What is the purpose of Continuous Delivery and Deployment? (Continuous Delivery works with ensuring that the code can be safely deployed (production), to ensure that the business and service application work as expected, and deliver every change to production. Continuous deployment works with automated tests, and every change is deployed to production automatically, making the development and release process faster and more robust.)
+
+
+1. What is systems development agility? (living up to the values in the agile manifesto AND/OR a practical property of a method component in dealing with change, contribute to either economy/quality/simplicity and be continuously ready)
+2. What is dual-track development? (an approach to organize a team's discovery work focused on fast learning and validation, together with the development focus on predictability and quality)
+3. Which risks does the discovery vs delivery track deal with? (discovery: ideation, usability, feasibility, viability. Delivery: reliability, scalability, maintainability, performance)
+4. How does a team align the two tracks? (Whole team effort, shared product backlog, visualize discovery work and progress)
+5. How can agility be improved in a fast-moving software organization? (use development method components that reflect customer relations and use tools, such as JIRA, to maintain and align project management practices)
+6. What characterizes a fast-moving software organization? (responding to changes in their environment, have small and diversified projects that allow economy of scope rather than economy of scale)
+7. Name some of the problems a software organization may struggle with? (outdated methods, poor alignment between project practices, unclear expectation management with customers)
+8. How can you evaluate the agility of a new practice, technique, or tool for your team/project/organization? (With Conboy's taxonomy of agility)
+
+
+
+
+
+Exercise 1 (100%): Revisit and discuss the 9 exam topics' relevance for your semester project. Consider what makes the topic interesting to you.
+1. Software Process Model - Waterfall / Incremental / Iterative
+2. Comparison of plan-driven and agile
+3. Key features of Scrum
+4. Key features of XP
+5. Product Planning and Refinement
+6. Risk Management
+7. Quality Management
+8. Configuration Management and DevOps
+9. Improving Agility
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fitzgerald, B. (1997). The use of systems development methodologies in practice: a field study. Information Systems Journal, 7(3), 201-212.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

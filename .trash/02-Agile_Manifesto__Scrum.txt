@@ -1,0 +1,419 @@
+
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING: AGILE MANIFESTO & SCRUM
+
+JOHN STOUBY PERSSON
+
+Last lecture's objectives
+
+Overview of the content and activities in the agile software engineering (ASE) course.
+
+Understand the software engineering problem and that it has fundamentally different answers.
+
+Knowledge of different paradigms for organizing software engineering (process models).
+
+Lecture objectives
+
+
+
+A historical overview of the agile manifesto and scrum Knowledge about scrum roles, events, and artifacts Skills in using scrum in a software project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What may be the problems these 4 values should solve?
+
+Principles behind the Agile Manifesto
+
+
+• Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+
+• Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+
+• Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+
+• Business people and developers must work together daily throughout the project.
+
+• Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+
+• The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+
+https://agilemanifesto.org/principles.html
+• 
+Working software is the primary measure of progress.
+• Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+• Continuous attention to technical excellence and good design enhances agility.
+• Simplicity--the art of maximizing the amount of work not done--is essential.
+• The best architectures, requirements, and designs emerge from self-organizing teams.
+• At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+
+
+
+
+5
+
+We're loosing the relay race
+
+
+
+
+
+
+The... 'relay race' approach to product development...may conflict with the goals of maximum speed and flexibility. Instead a holistic or 'rugby' approach- where a team tries to go the distance as a unit, passing the ball back and forth- may better serve today's competitive requirements.
+
+Hirotaka Takeuchi and Ikujiro Nonaka,
+"The New New Product Development Game",
+Harvard Business Review, January 1986.
+
+Scrum
+
+
+
+
+
+
+Not an acronym, "A scrum is a team pack in Rugby, everybody in the pack acts together with everyone else to move the ball down the field"
+A small group is responsible for picking up the ball and moving it toward the goal.
+
+
+
+
+
+
+
+
+
+
+
+
+Schwaber, K. (October, 1995). Scrum development process. In workshop proceedings of OOPSLA'95: Object-Oriented Programming, Systems, Languages & Applications, Austin, Texas.
+
+Scrum core concepts
+Values: Commitment, Focus, Openness, Respect, and Courage Separates two concerns
+• In what sequence will work be done (PO)
+• How much work will we commit to (Team)
+
+Transparancy
+• The emergent process and work must be visible to those performing the work as well as those receiving the work
+
+Inspect and adapt
+• More focus on goal/results than estimation precision or original plan
+
+
+
+
+
+Page 8
+
+Scrum - Inspect & adapt based on transparency
+
+
+Sprint Backlog	Running tested features
+
+Product Backlog
+
+
+9
+
+Scrum has two concurrent tracks
+Success depends on a balance in progress of the two tracks
+
+
+
+
+
+
+
+
+
+Scrum Master
+
+...
+Execute & Deliver Sprints
+
+Setup	Close out
+
+Prepare Product Backlog
+
+
+Product Owner
+When READY is well implemented a positive spiral emerge When READY is ill implemented a negative spiral is started
+
+
+
+Page 10
+
+Scrum Roles
+
+
+
+
+Product Owner
+
+
+
+Scrum Master
+
+
+
+
+
+
+
+Team
+
+
+• Decision Maker: Order and content of Product Backlog
+• Accepts or rejects work results
+• Responsible for vision and profitability of the product
+• Defines the features of the product, decides on release date and content - release planning.
+
+
+• Facilitator of Scrum Process
+• Ensures that the Scrum process is followed.
+• Enables close cooperation across all roles and functions
+• Removes barriers
+• Shields the team from external interferences
+• NOT a project manager
+
+• Professionals who owns their own sprint plan
+• Cross-functional, seven plus/minus two members
+• Selects the sprint goal and specifies work results
+• Has the right to do everything within the boundaries of the project guidelines to reach the iteration goal
+• Organizes itself and its work
+• Demos work results to the Product Owner
+
+Scrum Product Owner activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer
+
+
+
+One person not a committee
+
+
+Review sprint deliverable
+
+
+
+
+
+
+
+
+  Refinement meetings
+
+Scrum Master activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Facilitate Scrum meetings and coach development team and Product Owner
+
+
+
+...
+
+
+
+
+Scrum Team activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10% of team effort
+
+
+
+
+
+90% of team effort
+
+Scrum
+
+
+ConceptDefinitionDevelopment teamA self-organizing group of software developers, which should be 7 +/-2
+people. They are responsible for developing the software and other essential project documents.Potentially shippable product incrementThe software increment that is delivered from a sprint. The idea is that this should be 'potentially shippable' which means that it is in a finished state and no further work, such as testing, is needed to incorporate it into the final product. In practice, this is not always achievable.Product backlogThis is a list of 'to do' items which the Scrum team must tackle. They may be feature definitions for the software, software requirements, user stories or descriptions of supplementary tasks that are needed, such as architecture definition or user documentation.Product ownerAn individual (or possibly a small group) whose job is to identify product features or requirements, prioritize these for development and continuously review the product backlog to ensure that the project continues to meet critical business needs. The Product Owner can be a customer but might also be a product manager in a software company or other stakeholder representative.
+Scrum, contd.
+
+
+
+
+ConceptsDefinitionDaily scrumA daily meeting of the Scrum team that reviews progress and prioritizes work
+to be done that day. Ideally, this should be a short face-to-face meeting that includes the whole team. Key questions: (1) What did you do Yesterday? (2) What will you do today? (3) Any impediments making it harder to reach the sprint goal?Scrum MasterThe Scrum Master is responsible for ensuring that the Scrum process is followed and guides the team in the effective use of Scrum. The Scrum Master should not be thought of as a project manager. Others, however, may not always find it easy to see the difference.SprintA development iteration, usually 2-4 weeks long. Ends with a sprint review of work that meets the Done criteria (not done should not be presented).VelocityAn estimate of how much product backlog effort that a team can cover in a single sprint. Understanding a team's velocity helps them estimate what can be covered in a sprint and provides a basis for measuring improving performance.
+
+
+
+Challenges in Scrum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Challenges in Scrum, contd.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Group exercises (10:15-12:00)
+
+
+Exercise 1: Build your own Scrum (40%)
+
+Exercise 2: Benefits and drawbacks of Scrum (20%)
+• When is it a good idea to use Scrum?
+• When is it better to use Waterfall?
+• What are the benefits of Scrum?
+• What are the drawbacks of Scrum or iterative and Incremental processes?
+
+Exercise 3: Predictive versus adaptive planning and estimation of your semester project (40%)
+• What does it mean that requirements in Scrum are emergent, and how is that similar or different to your semester project?
+• How do we estimate in Scrum, and how do you estimate in your semester projects?
+• Should your semester project be iterative (if yes, in how many iterations)?
+• Should your semester project be incremental (if yes, in how many increments)?
+
+Lecture objectives
+
+
+
+A historical overview of the agile manifesto and scrum Knowledge about scrum roles, events, and artifacts Skills in using scrum in a software project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
