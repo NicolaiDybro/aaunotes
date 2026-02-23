@@ -19,4 +19,5 @@ clang -target x86_64-apple-macos -o program_x86 konverter.c
 
 objdump -d program_x86
 
+bitwise
 
