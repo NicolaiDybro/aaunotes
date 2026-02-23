@@ -1,0 +1,1275 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Healthcare Testing @ RTX
+Michael Svangren Test manager msn@rtx.dk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How can we make sure that the products we develop has significant quality to go to market ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About me
+
+
+
+
+Name: Michael Svangren
+
+Experience:	Masters in computer science and informatics 2012 P.hD. in computer science 2017
+Post doc. 2017-19
+SSI Schaefer 2019-21
+RTX 2021 - present
+
+What i do now:	Department manager for 12 people in DK
+SQA manager for 5 people in DK + 5 people in RO
+
+Area of expertise: Healthcare domain - Wireless telematry, system testing,
+test management, requirements engineering
+
+
+
+RTX
+- What we do
+- Product examples
+
+Test and test management
+- What is quality assurance
+- What is quality assurance management
+
+Case: Healthcare - management perspective
+- Intro to Healthcare domain
+- Why quality in healthcare is important - and tricky!
+
+- Healthcare testing - Shifting left
+- The specification
+- Implementation
+- System test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RTX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hardware/software development
+
+We do Digital Enhanced Cordless Telecommunications (DECT)
+
+We typically design for other companies -> ODM model
+
+
+
+
+
+
+
+Things we excel in
+
+Hardware
+- PCB design
+- Mecanics design
+- PCB verification
+
+Protocol
+- RF design
+- RF verification
+
+Product integration
+- High level integration of protocol and hardware
+
+
+
+
+
+
+
+
+
+
+
+RTX Company Presentation 2025	8
+
+Things we outsource
+
+Manufacturing
+- PCB production at a scale
+
+In most cases
+- Large scale system testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA and Test Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quality Assurance (QA) is a systematic process used to ensure that a product or service meets specified quality standards and fulfills customer expectations.
+- ISTQB foundation
+
+We ensure that the product meets the requirements and standards through testing!
+
+
+
+
+
+
+Functional testing	Non-functional testing
+
+
+Sanity Testing
+
+
+
+
+Ad-Hoc Testing
+
+Exploratory testing
+
+
+
+
+
+
+Smoke Testing
+Regression Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+Test management is the process of organizing, planning, executing, and tracking all activities involved in software testing. It ensures that the testing process is systematic, efficient, and aligned with project goals.
+- ISTQB
+
+
+
+
+Managing all aspects of the sofware lifecycle
+- Planning
+- Requirement engineering
+- Define and write test cases
+- Execute Test Cases
+- Report defects
+- Track defects
+- Coverage and Tracability Reports
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Case: The Healthcare domain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wireless Patient Monitoring
+
+
+
+
+
+
+Technologies
+
+
+
+
+
+Access Point Controller
+
+
+
+
+Under strict FDA regulation (Medical Devices)
+- You need processes that guide and document your requirement, development, and testing effort.
+
+Technology must not experience any disconnects throughout its patient monitoring state
+- Inconvinient for healt care personnel (they have to send a person)
+- Potential patient loss
+- Potential patient death
+
+
+
+
+To gain confidence that our product is good enough to go to market (reliability, resilliance) To prove to the customer that the product is implemented according to spec (reporting) To prove quality, and to document that we have actually tested (To FCC, etc.)
+To gain end user satisfaction (i.e., make sure that our products are reliable to customers)
+
+RoleDescriptionSalesSells productsProject managersManages project from beginning to endProduct managersDecides what the products must doArcitectDefines product functionality (requirements)HWDesigns and implement hardwareProtocolDesign and implement low level softwarePIIntegrate software and hardwareSystem testingTests the finished products and ensures that requirements are implemented correctly
+RoleTest typesSalesReviewsProject managersReviews, meetingsProduct managersReviews, meetings..ArcitectReviews of requirementsHWRF testing, Climate tests, Weber tests..ProtocolUnit testing, interface testingPIUnit testing, interface testingSystem testingSystem testing
+
+
+
+
+
+
+
+
+
+
+
+This presentation will not touch upon the details of HW/RF, PDT testing!
+
+
+
+
+	
+https://www.kistler.com/US/en/in-line-and-end-of-line-testing-eol-testing-for-production-processes/C00000055
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.kistler.com/US/en/in-line-and-end-of-line-testing-eol-testing-for-production-processes/C00000055
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Healthcare Test Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Too late!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Earlier defect detection and prevention Lower cost of fixing defects
+Faster feedback to developers Improved collaboration
+Higher overall product quality
+
+
+
+
+
+
+
+
+
+
+
+
+https://medium.com/qa-moments/difference-between-v-model-and-v-model-in-software-testing-2b5f4f6ff575 https://dzone.com/articles/how-shift-left-testing-can-help-your-product-quali
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Specification Phase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer requirements define the desired outcomes from the customer's point of view - the functions, features, quality levels, and constraints they expect in the final product or service.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Technical requirements are the detailed, measurable specifications that describe how a system, product, or service will be designed, built, and operated to meet the customer and system requirements.
+
+They translate functional and performance needs into engineering terms, defining the technical characteristics, interfaces, standards, and constraints necessary for implementation.
+
+
+Shift left: Requirements reviewing and static analysis
+
+
+The progressive development and clarification of system or project requirements from their initial, high-level statements into well-defined, validated, and approved specifications that can guide design, implementation, and testing.
+
+
+
+
+Team members reviewing and commenting on requirements Team members agreeing on the requirements
+Some success criteria (i.e Gateway goals):
+ Requirements must be clear and unambiguous
+ Requirements must have have clear accept criteria
+ Requirements must be tracable i.e., from a customer req to a product req.  Requirements must provide enough context so that the above is clear
+ Requirements must be accepted
+
+The verification and validation plan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software and Hardware Implementation
+
+
+
+
+
+
+
+
+
+
+
+Healthcare - Development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+At this point
+
+Requirements are in an accepted state that developers can begin implementing from. Some sort of hardware exist that the software can run on (ES hardware)
+
+https://stock.adobe.com/dk/search?k=pcb+board
+
+Shifting left - Writing manual and auto tests
+
+Testers and developers collaborate in real time on new features - Typically devs are system agnostic Developer demos work-in-progress to tester.
+Tester develops tests early making it faster to execute system tests when a build is done
+
+Manual and automatic system tests - Difference
+
+
+
+
+
+
+Manual testing is the process of manually executing test cases without using automation tools, to verify that a software application works as expected.
+
+In manual testing, a human tester plays the role of an end user - using the application's features to identify defects, usability issues, or deviations from requirements.
+
+Automated testing - is the process of using software tools or scripts to execute test cases automatically, compare actual outcomes with expected results, and report the findings.
+
+Instead of a human tester manually performing each step, automation tools simulate user actions and validate system behavior automatically.
+
+Manual and automatic system tests - Profiles and situations
+
+
+
+
+
+
+Manual testing often involves skilled testers knows the system and what to look for.
+
+Takes time and resources on testing especially if tests are repeated.
+
+  Typically you want manual tests for subjective treatment of tests or if tests are only going to be run few times.
+
+Automated testing often involves developers who knows how to write good tests.
+
+Takes time and resources to develop and maintain tests - execution is fast.
+
+  Typically you want to automate repetative and trivial tests (the ones you know if going to be run frequently).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+System Testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Healthcare - Product lifecycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New hardware is ready (Pilot Production units, PP)
+
+Developers are done
+- Developers have a good understanding of when and where the code breaks
+- Usually happens on component level i.e., unit testing and integration tests
+-	I.e.,
+- Does this component have the right interface to another
+- Performance of the radiomodule,
+- Stress
+- Max capacity
+- Throughput
+
+DOD: Developer unit and integration tests are executed and passed before handing over to testing team
+
+We do system tests!
+
+When do software often break ?
+- When you put it under pressure
+- When you put it together with other components using other software
+
+Our products does not exist in a vacuum
+- They need to be compatible and operate with other products
+- We need to provide system reliability - not only product reliability
+
+Customer first!
+- We are first and foremost interested in the patient and how they are impacted
+- I.e., a telematry device must not lose patient monitoring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DUT
+
+Controller
+
+
+
+The test plan
+
+- What is part of the software release?
+- Should we do a regression?
+- Should we do a full test?
+- Which types of test should we do?
+- What software release are we running on?
+- Which hardware revision are we using?
+- What other components do we have in the system and what software do they use?
+
+
+
+
+
+Test examples, interface validation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+Test examples, compatability
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ad hoc testing
+- Letting the testers poke the system in ways we did not expect in formal verification
+- Unscripted usually
+
+Usability testing
+- Finding UI elements that may be problematic in user interaction
+- Can be unscripted
+
+Walk throughs / Testathons
+- Letting field engineers walk through the system following the manual / documentation
+- Finds problems we did not anticipate
+- Ensures that our customers can actually use the products and figure out how to install them
+
+What happens if the product fail the test?
+
+
+
+
+
+
+
+
+Do we go back fix it and retest everything?
+- Fx., Hardware issues, protocol.. Everything that can affect patients!
+- Takes a lot of time..
+
+Do we fix it and do a small regression?
+- Cosmetic issues or something that does not affect the patients.
+
+
+Either way we do retest.
+
+Tools (Jama and Jira)
+
+https://www.jamasoftware.com/media/2021/03/features-tab6-reause-and-  baseline-management.png
+
+
+
+
+
+
+
+
+
+
+https://www.atlassian.com/agile/project-management/workflow-examples
+
+
+
+
+Bugs are classified based on patient impact
+- Critical
+- Serious
+- Cosmetic
+- Not a bug
+
+We do not pass the product if there are any critical or serious errors
+
+System test passed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mass Production
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Healthcare - Product lifecycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Point of no return!
+
+
+How can we make quality products?
+
+
+
+
+
+
+
+
+Quality needs to be implemented from the very beginning, you cannot wait until the end and expect QA to build quality into your products magically. If QA discovers a problem in the validation phase or after, it's expensive to fix!
+
+- We review, write, edit, and test early
+- We test often on all stages in the lifecycle
+- We adopts methods that will bring our product closer to the customer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RTX Company Presentation 2025 78
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thank you!
+Michael Svangren Test manager msn@rtx.dk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

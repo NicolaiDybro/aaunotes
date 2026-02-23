@@ -1,0 +1,372 @@
+
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING: XP, ESTIMATION & HOMEGROUND
+
+
+JOHN STOUBY PERSSON
+
+
+
+
+
+
+
+
+
+A historical overview of the agile manifesto and scrum Knowledge about scrum roles, events, and artifacts Skills in using scrum in a software project
+
+
+
+
+
+
+
+
+
+An overview of eXtreme Programming (XP)
+
+Basic skills in estimation of software development tasks
+
+Prepared to chose and adapt a development method for a specific project
+
+
+
+
+If code reviews are good, we'll review code all the time (pair programming).
+
+If testing is good, everybody will test all the time (unit testing), even the customers (functional testing).
+
+If design is good, we'll make it part of everybody's daily business (refactoring).
+
+If simplicity is good, we'll always leave the system with the simplest design that supports its current functionality (the simplest thing that could possibly work).
+
+If architecture is important, everybody will work defining and refining the architecture all the time (metaphor).
+
+If integration testing is important, then we'll integrate and test several times a day (continuous integration).
+
+If short iterations are good, we'll make the iterations really, really short - seconds and minutes and hours, not weeks and months and years (the Planning Game).
+Kent Beck 1999, Extreme programming explained: embrace change, Addison-Wesley
+
+
+
+
+ConceptDescriptionIncremental planningRequirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development 'Tasks'.Small releasesThe minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release.Simple designEnough design is carried out to meet the current requirements and no more.Test-first developmentAn automated unit test framework is used to write tests for a new piece of functionality before that functionality itself is implemented.RefactoringAll developers are expected to refactor the code continuously as soon as possible code improvements are found.
+
+
+
+
+Pair programmingDevelopers work in pairs, checking each other's work and providing the support to always do a good job.Collective ownershipThe pairs of developers work on all areas of the system, so that no islands of expertise develop and all the developers take responsibility for all of the code. Anyone can change anything.Continuous integrationAs soon as the work on a task is complete, it is integrated into the whole system. After any such integration, all the unit tests in the system must pass.Sustainable pace40 h work week. Large amounts of overtime are not considered acceptable as the net effect is often to reduce code quality and medium term productivityOn-site customerA representative of the end-user of the system (the customer) should be available full time for the use of the XP team. The customer is a member of the development team and is responsible for bringing system requirements to the team for implementation.
+
+
+
+
+• Real customer(s) sits with the team
+• Answers the developers' questions
+• Writes user stories and functional tests
+• Provides value to the project by being ready available as a knowledgeable source on everything to do with the customers and users and their business
+
+
+
+
+
+	
+
+
+
+
+
+
+As a <type of user>, I can <immediate goal> so that <reason>.
+
+
+
+
+[DRAMATIC SHIFT!!!] By utilizing user stories (this template), we're saying that we're going to work collaboratively with the customer to discover what they want (during analysis) and deliver it during the sprint. The past way was for marketing (or a customer) to have tightly defined requirements, and we would chunk those up and meet them!!
+
+
+
+
+
+
+
+
+
+• As a user I want to be able to set the alarm on my cell phone so I can get up in the morning.
+• As a snoozer I want to be able to activate 'snooze' when the alarm goes off, so I can sleep 10 minutes more.
+• As a user I want to set the alarm so I can get up at the same time every morning.
+
+
+
+
+
+• The planning game is based on user stories
+• The project team read and discuss the stories and rank them in order of the amount of time they think it will take to implement the story
+• Stories are assigned 'effort points' (also called story points) reflecting their size and difficulty of implementation
+• The number of effort/story points implemented per day is measured giving an estimate of the team's 'velocity'
+• This allows the total effort required to implement the next release to be estimated
+
+
+
+
+
+Getting started
+1. Each person in your team should have a set of cards with the numbers "0, 1/2, 1, 2, 3, 5, 8, 13, 20, 40, 100, 8, ?"
+2. Each team member holds a set up so only they can see them
+3. Estimates are made by the people doing the work, the PO will be present to answer questions and clarify product needs.
+4. Estimates are done for each story individually
+5. All team members show their selected card at the same time
+6. If difference is more than 2 numbers in the series, the person with lowest and highest number present their reasons
+7. Entire teams replay and continue until at most 1 number difference, e.g. lowest 5 highest 8
+
+
+
+
+
+
+Why do the outliers matter?
+
+
+
+
+
+1. Identify your next small step - in XP you'll take small steps and run fast
+2. Think of how you will test that you've accomplished this step.
+3. Write the code for one of your tests.
+4. Write just enough code that your test compiles.
+5. Your test should be failing at this point.
+6. Now you write just enough code to make your test pass. You may be tempted to take care of other issues, but you need to stay focused on your current goal. Pass the test.
+7. Look for the next test you have to write. [i.e. back to (2)]
+8. Now return to step (1) and continue with the next small step.
+
+
+
+XP practices depend on each other
+e.g., "pair programming" depends on "40-hour week"
+
+Vanderburg, G. (2005). A simple model of agile software processes--or--extreme programming annealed. In Proceedings of the 20th annual conference on Object-oriented programming, systems, languages, and applications (pp. 539-545).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BALANCING PLAN-DRIVEN AND AGILE
+
+
+
+
+
+17
+
+
+
+
+
+1. Neither agile nor plan-driven methods provide a silver bullet.
+2. Agile and plan-driven methods have home grounds where one clearly dominates the other.
+3. Future trends are toward application developments that need both agility and discipline.
+4. Some balanced methods are emerging.
+5. It is better to build your method up than to tailor it down.
+6. Methods are important, but potential silver bullets are more likely to be found in areas dealing with people, values, communications, and expectations management.
+
+
+AgilePlan-drivenAPPLICATIONPrimary goalsRapid value; responding to changePredictability; stablity; high assuranceSizeSmaller teams and projectsLarger teams and projectsEnvironmentTurbulent; high change; project- focusedStable; low change; project/organization-focusedMANAGEMENT
+Customer relationsDedicated on-site customers, where feasible; focused on prioritized incrememtsAs-needed customer interactions; focused on contract provisions; increasingly evolutionaryPlanning/controlInternalized plans; qualitative controlDocumented plans; quantitative controlCommunicationsTacit interpersonal knowledgeExplicit documented knowledge
+Home Grounds definition, contd.
+TECHNICAL
+RequirementsProritized informal stories and test cases; undergoing unforeseeable changeFormalized project; capability; interface; quality; foreseeable evolution requirements
+DevelopmentSimple design; short increments; refactoring assumed inexpensiveArchitect for parallel development; longer increments; refactoring assumed expensiveTestExecutable test cases define requirementsDocumented test plans and proceduresPERSONNEL
+CustomersDedicated; colocated CRACK (Collaborative, Representative, Authorized, Committed,Knowledgable)
+performersCRACKperformers, not always collocatedDevelopers> 30% FT Cockburn level 2 and 3 experts; no 1b or -150% level 3s early; 10%
+throughout; 30% 1b's; 0 -1
+CultureComfort and empowerment via many degrees of freedom; thriving on chaosComfort and empowerment via framework of policies and procedures; thriving on order 20
+
+
+
+
+
+
+Cockburn's developer levels
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+Exercise 1: Compare and contrast XP and Scrum (20%)
+
+Exercise 2: Estimation (40%)
+
+Exercise 3: Analyze home grounds for your project (40%)
+
+
+
+
+
+
+
+Home ground Decision tool
+
+
+
+
+
+
+
+
+
+
+23
+Home ground
+
+
+
+
+
+
+
+
+
+An overview of eXtreme Programming (XP)
+
+Basic skills in estimation of software development tasks
+
+Prepared to chose and adapt a development method for a specific project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1753 @@
+
+
+
+
+
+
+
+
+The Trackunit Way
+The Way We Do Things Around Here
+
+
+
+
+
+
+
+
+
+
+Søren Bruncke Mikkelsen
+
+Senior Director of Engineering
+
+
+
+
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jonas van Vliet
+
+Staff Software Engineer
+
+
+
+
+
+3
+
+01	The Trackunit Way - Why we exist Purpose and Ambition
+
+
+Agenda
+
+The Trackunit Way -
+02	Who We Are and Strive
+to Become
+Past, Present, Future
+
+The Trackunit Way -
+How we deliver
+Our Human Operating
+System
+
+
+04 New Product Tracks Scaling Product Engineering within a SaaS company
+
+
+05 Becoming a Platform company Our way to building a world class software platform with the construction industry
+
+06 You build it you run it With high empowerment comes great responsibility
+
+
+07 Golden Path
+why a golden path is a way to scale an organization while keeping authonomy
+
+Scaling an engineering
+08 organization
+
+
+
+
+The Trackunit Way - Always in progress
+The Trackunit Way is always in the making. It is a living, evolving mechanism that we want to work with in an intentional and deliberate way - what we do shapes who we are - and who we aspire to become.
+
+
+
+
+
+
+We consider The Trackunit Way as a competitive advantage. While the world around us has changed dramatically over the past century, many of the ways organizations work - and think about people - have remained surprisingly unchanged. At Trackunit, we believe the way we work matters. And it has never been more important to be intentional about how we collaborate, lead, and grow together if we want to stay relevant, human, and competitive.
+
+This is not an attempt to grasp the unique culture of Trackunit in all details. Neither is it meant as a step-by-step guidebook that is set in stone. It's made to spark inspiration and new ideas for those of us who've witnessed our evolutions, for new hires who will shape our future, and people considering to join us on our journey.
+
+Welcome to our human operating system.
+
+	
+
+
+
+Purpose, and Ambition
+Why We Exist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6
+
+
+Be part of something bigger
+
+At Trackunit, we're committed to construction - one of the largest industries in the world.
+
+
+It's an industry of strong, hard-working people, building the infrastructure of our lives. An industry that used to be known for the cities it built and the landscapes it formed. For complex infrastructures and the rise of skyscrapers in unthinkable shapes and sizes.
+
+Construction enables each one of us to live better lives through safer roads and rails, modern hospitals and schools, offices and homes. But for too long, the industry has been known for blown-up budgets and schedules delayed.
+
+At Trackunit, we believe we can still do the impossible and rebuild the reputation of the industry.
+
+New technology has emerged, and today we
+
+know more than ever before. We build the services that enable construction to work smarter together and grow faster together.
+
+An industry that has long been the laggard of digital transformation is now at a tipping point. Change is happening.
+
+What impact are you going to make?
+
+Our purpose
+
+
+Our purpose decoded
+Our purpose statement decodes what we do. Each word is deliberately chosen and carries meaning. Purpose is personal - it connects to each of us in different ways.
+Use this as a guide to understand how your work
+contributes to our shared mission.
+
+
+
+
+
+Our approach is human, collaborative and based on co-creation. We are driven by a design thinking approach, being empathetic, iterative and always striving for an ecosystem-wide impact.
+
+Downtime is the core of all problems in the construction industry. We address it through five key areas, looking at downtime through the lens of machines, humans, companies, our industry as a whole and society at large. Eliminating Downtime is the contribution made to create an impact beyond the industry because it exists in the world, for the world.
+
+
+
+    Together, we Eliminate Downtime to build the most useful industry for the world
+
+
+
+
+We are builders and doers by heart and committed to turn every relevant idea into a catalyst for change.
+
+
+
+Being useful is the core DNA of our company. We always strive to walk on two legs, driving a highly commercial and impact-focused agenda at the same time.
+
+
+Construction is a very big player in the world, and we have at least the same aspirations so that the industry can consciously create an impact for the world. By doing so, we deliberately balance an inwards focus with an outwards outlook because long- term relevance for any ambitious company will also be measured in the contribution outside of the industry.
+
+
+
+
+
+
+We Put Our Money on
+
+How Do We Do It?
+
+
+
+The construction industry is our home. A tough industry with cool machines and cool people. We love machines and love to collaborate with people who love machines.
+
+
+
+We unite the construction industry to Eliminate Downtime through a unique human operating system and a superior data-driven platform - always with a highly commercial, sustainable, and global ambition.
+
+We are a trusted ecosystem orchestrator making the largest data lake in the industry useful to Eliminate Downtime. This is our contribution to anyone who wants to deliver impact
+
+today and tomorrow through insights, products, services, and business models - all developed by people and for people.
+
+We operate as global team, compassionately challenging the dogmas in how to be an inspiring and relevant industry always co-creating for a real impact.
+
+
+
+
+
+
+
+
+
+
+
+Nobody is better than	everybody.
+We trust each other and do the best of our work when we co-create and collaborate.
+
+	
+
+
+
+Past, Present, Future
+
+Who We Are and Strive to Become
+
+
+
+
+
+
+We Put Our Money on
+
+Our Journey
+
+
+Trackunit started as a technology company pushing innovation and pioneering technological progress before IoT was a thing.
+
+
+
+Since then, our journey has been a story of growth, learning, and doing the impossible. Trackunit is focused on the construction industry where we are delivering both hardware and software to the global market with an ambition to eliminate downtime and turn construction into the most useful industry for the world. The pioneering spirit is still intact - we drive for progress and impact, and the people are the true secret sauce to the journey.
+
+How do we unlock creativity, empower and inspire people, and shape what's next for our industry?
+
+
+That's what we're asking ourselves every single day in our pursuit to foster a workplace where we can all bring out our full potential and play to each other's strengths.
+
+The journey ahead with scaling and building a platform for construction equipment calls for courageous ownership, compassionate collaboration, and a relentless focus on solving what truly matters, both now and in the long run.
+
+Empowering people to act with clarity and purpose unlocks imagination, accelerates progress, and ensures we deliver on our collective promise.
+
+Growing Our Footprint
+Trackunit is the global market leader in brand-agnostic IoT solutions for construction equipment
+
+
+
+
+
+400
+Employees
+
+400-500
+Employees
+
+
+
+Half a decade ago, Trackunit was a local business providing hardware to track construction equipment.
+
+Today, we have grown into a SaaS- company and a thought leader servicing the needs of the entire ecosystem of stakeholders within construction.
+
+Doubling down on equipment
+
+connectivity in existing markets and growing our network, Trackunit is ready to take the industry into a digital future.
+
+Looking further into the future of the industry, Trackunit is well-positioned to facilitate and capitalize on the immense digitalization the construction industry is leaning into.
+
+
+
+
+
+50
+Employees
+
+
+350
+Employees
+
+
+
+
+
+
+1998	2003-15	2016-21	2022	2023	2024
+
+
+
+M-Tec A/S
+established.
+
+Trackunit brand established.
+
+Trackunit subsidiaries established across Western Europe.
+
+Trackunit acquired by investment group of Goldman Sachs and GRO.
+
+Entry into the North
+American market.
+
+Trackunit Iris platform
+launched to market.
+
+Acquires Dreyer & Trimm,
+and Satrak.
+
+Entry into APJ market.
+
+Trackunit acquired by Hg
+Capital.
+
+Trackunit acquires Industrial
+loT division of ZTR.
+
+Circa DKK 1 billion net
+revenue.
+
+Launches 5G, second- generation Spot connecting high-value, non-powered assets to ecosystem.
+
+Stages first-ever Trackunit
+NEXT event.
+
+Trackunit Kin wins Rental Awards Editor's Choice 2022.
+
+Posts net revenue of DKK
+1.2b.
+
+Acquires German ConTech Flexcavo, US deployment specialist OEMSi.
+
+Launches Emissions Reporting solutions; new-gen Access Management.
+
+Initial launch of Marketplace and Platform SDK to facilitate ecosystem co- creation and empower partners.
+
+
+
+
+
+A global SaaS business
+450+
+People all over the world
+
+13
+Hubs all over the world
+
+8.3/10
+Employee
+Engagement
+
+45+
+Nationalities
+
+	
+
+
+Our human operating
+system
+
+How We Deliver
+
+
+
+
+Future Partnerships
+
+
+
+Broader Ecosystem
+
+
+Stewards of A Global Ecosystem
+
+
+Connected by Purpose, Powered by Insights
+
+
+
+OEM
+
+
+
+
+
+
+
+Contractor
+
+Rental
+
+
+The industry thrives on collaboration. At Trackunit, we bring industry professionals, partners, customers, and employees together to share knowledge, solve challenges, and drive meaningful change.
+
+We operate within a Connected Ecosystem-an industry-wide network where people, machines, and insights come together to eliminate downtime.
+
+By integrating data-driven insights with strong partnerships, we empower our ecosystem to work smarter, safer, and more efficiently.
+
+Our role? We are more than a technology provider; we are an ecosystem orchestrator, ensuring that every connection-whether digital, human, or operational- creates value.
+
+
+
+
+
+
+
+A Human- Centric Organization
+At Trackunit, we don't have employees - we are people on a mission
+together.
+
+Our success as a company is built on a deep understanding of human nature. We design our organization to reflect how people truly flourish - embedding trust, care, and purpose into everything we do.
+
+Our ambition is clear: To set a new standard for what a truly human- centric organization looks like.
+
+We Work with Purpose
+Everyone at Trackunit should have the opportunity to do meaningful work. We help people connect their strengths to our mission - because when work matters, impact follows.
+
+
+
+We are Built on Trust
+We trust each other to take ownership, make an impact, and shape the future of Trackunit. We don't micromanage - we empower.
+
+
+
+We Make Life Work
+Work should be a fulfilling part of life, not something that competes with it. We support flexibility and balance, so people can bring their best selves to work and beyond
+
+We Unfold Human Potential
+We create an environment where people do their best work and grow with us. We unlock potential by being close enough to see it, and by creating opportunity, and support to unfold it.
+
+
+
+We Design for Belonging
+One size fits no one. We see and value each person's unique contributions appreciating that complementarity is what make our teams perform at their best.
+
+
+
+We Win Together
+Nobody is better than everybody. We succeed when we collaborate, challenge each other, and build something bigger than ourselves.
+
+
+
+
+
+
+Orchestrating a Community
+
+
+It takes a village to raise a child they say.
+A big, wicked challenge like eliminating downtime is also something that calls for an entire community to come together. Research shows that people flourish and work at their best in organizations that establish meaning, autonomy, freedom and mastery.
+
+That's why we do everything we can to keep our hearts, minds, and brains open - just like we strive to keep our organizational boundaries open.
+
+
+
+To be something for the world, we're on a journey towards an unlimited organization and to orchestrate a sense of community across functions and levels of the industry. We work outside in - always co-creating with customers, partners, competitors, associations, freelancers, and thought leaders.
+
+
+Our bias for building trust and connection is what sets us apart from the rest.
+
+
+
+
+
+
+
+Show Compassion.
+
+
+The Principles We Live by
+What we should know and do to deliver
+on our purpose and strategy.
+
+We practice compassion by actively listening without judgment, seeking to understand before responding. We approach conversations with curiosity, self- awareness, and emotional intelligence, ensuring that feedback is delivered with honesty, respect, and a genuine desire to help. While empathy allows us to recognize others' emotions, compassion moves us to take action - supporting our colleagues in thriving and growing.
+
+
+Win now. Win later.
+We stay focused on our ultimate goals, knowing that if we fixate only on the next step, we risk losing our balance. To drive real impact and achieve our business objectives, we solve the problems that truly matter with curiosity, agility, and a commitment to learning. We move beyond emotional arguments, instead articulating and testing hypotheses with data, facts, and proof points. Winning isn't just about Trackunit - it's about catalyzing the ecosystem and creating lasting impact beyond our company.
+
+Own Your Part.
+We take responsibility for achieving real results by owning our part in every challenge and opportunity - while ensuring it is well-integrated with the bigger picture. We engage others, foster a strong sense of ownership, and follow through on our commitments. Organizational change starts with personal change, so we hold ourselves 100% accountable for our actions and words - and we support those around us in doing the same, recognizing that true ownership includes collaboration and alignment with others.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scaling Product Engineering within a SaaS company
+New Product Tracks
+
+
+
+
+
+
+
+
+
+
+Empowered product teams solving real problems
+
+With Increased Focus
+
+
+
+
+
+
+
+
+22 
+
+
+
+
+
+
+
+
+
+
+
+
+
+The 4 key areas of product craftsmanship:
+Customer Value
+Does the proposed solution provide real value to our customers?
+Will they buy it or choose to use it?
+Business Viability
+Will this solution work for the various dimensions of our business?
+Usability
+Can customers and users figure out how to use it?
+Feasibility
+Can we build it with the time, skills, and technology we have?
+
+A product manager is accountable for
+ensuring value and viability
+A design lead is accountable for ensuring usability
+An engineering lead is accountable for
+ensuring feasibility
+
+However, the team members have a shared responsibility for this and truly collaborate in an intense, give and take, to discover the best
+solution for the market.
+
+
+
+
+
+
+
+
+Product teams
+
+
+
+
+
+
+
+
+Solution space
+
+With New Product Tracks we changing from Feature teams to Product teams - increased focus on business outcome.
+
+Staffing to match the process stage.
+
+
+
+
+
+
+Problem scope
+
+
+
+
+
+
+Launch
+
+Product teams are empowered, autonomous and accountable for defined problems and solutions to these.
+
+The portfolio lens adds the following:
+- Work towards the portfolio objective
+- Align on strategy across teams
+- Increased involvement in decisions across teams
+- Support from leads in alignment, strategy
+and craftmanship.
+
+
+
+
+Engineering	Design	Product management
+
+
+
+
+
+
+ ro u t es n
+
+ ro u t tea 
+
+
+
+ ro u t
+ ana e ent
+
+
+
+ n neer n 
+
+ ro u t tea 
+
+
+
+
+
+ ro u t tea 
+
+
+ ro u t tea 
+
+
+
+
+
+
+
+
+
+Product
+team
+
+
+
+
+
+
+ ro u t tea 
+
+
+ ro u t es n
+
+
+
+
+
+
+ ro u t tea 
+
+Portfolio teams
+
+With New Product Tracks we are introducing product portfolios to better support our product teams
+
+
+
+
+
+Product
+team
+
+
+
+
+
+Product
+management
+
+
+
+
+
+Engineering
+
+
+
+Product
+team
+
+A Portfolio org is 2-5 product teams under shared leadership.
+
+Portfolio leads are aligned across product
+
+
+o u t
+
+management, engineering and design. Their
+
+ea 
+
+
+
+
+
+
+
+
+
+ n neer n 
+
+
+
+
+
+
+
+ ro u t tea 
+
+
+
+
+
+
+
+Product
+
+
+Product Design
+
+
+
+
+
+
+
+Product
+
+job is to support the teams with:
+- Strategic alignment
+- Distributed decision making
+- Product craftmanship
+
+ t es n
+
+team
+
+team
+
+
+
+
+
+ ro u t tea 
+
+
+
+
+
+ ro u t tea 
+
+
+
+
+
+ ro u t tea 
+
+
+
+ ro u t
+
+
+
+ n neer n 
+
+ ro u t tea 
+
+	
+
+
+
+
+
+How are we organized?
+
+
+
+
+
+
+
+https://trackunit.atlassian.net/wiki/spaces/Products/pages/4823908420/ Overview+Product+Areas
+
+
+
+26
+
+
+
+
+
+
+
+
+
+
+
+Product Roadmap
+https://trackunit.com/product-portal/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27
+
+Product Engineering Demoes - example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product Development Lifecycle (PDLC)
+
+Overview
+
+
+
+• 4 Core Phases
+Customer-Problem Fit ? Problem-Solution Fit ? Product-Market Fit ? End of Life.
+Ensures customer needs are understood, validated, solved, and scaled sustainably
+• 8 Stages
+Define the "how" of delivery, guiding execution and tangible outcomes.
+• Gates (Decision Checkpoints)
+Formal review points between stages for go/no-go decisions.
+Ensure accountability, alignment, and quality before progressing.
+• Governance Model (DRCI Framework)
+Driver, Responsible, Consulted, Informed roles clarify ownership.
+Promotes transparency, efficient collaboration, and clear decision-making.
+
+PDLC - Detailed view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30
+
+SDLC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+31
+
+
+
+SDLC - Design docs
+When to use design docs:
+
+• Make a substantial change to existing TU components and/or Features
+
+• Introduce new features to the TU platform
+
+• Add a new K8S deployment
+
+• Use a new technology not on the Tech Radar
+
+You do not need to go through the design review process for - Bug fixes - Smaller changes to existing components, that doesn't affect customers
+
+Submitting a Design Doc
+
+• Go to Design Docs repository
+
+• Create a branch
+
+• Copy the template.md Design Doc template, naming it domain-feature-
+<release1>-yyyymm.md
+
+• Place it in the /docs folder
+
+• All dependent assets of the design doc should be placed in it's own folder domain-feature-<release1> + In case of diagrams they must be in a format viewable in githubs editor, e.g. png + In case the viewable format is created from a source this source must be included, e.g. drawio.xml
+
+• If multiple releases/drops are not anticipated the "release1" part of the
+naming is optional
+
+• Submit a pull request
+
+• Trackunit/engineering-architecture-group should be automatically assigned as reviewers to the PR
+
+
+
+32
+
+SDLC - team responsibilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+With high empowerment comes great responsibility
+
+You build it you run it
+
+	
+
+
+
+
+
+IRIS - Platform overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35
+
+Iris architecture - Business perspective
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36
+
+Iris architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37
+
+Iris in numbers
+
+
+
+
+
+
+
+
+38
+
+Interconnected microservices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39
+
+Interconnected microservices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Component ownership
+
+
+
+
+
+
+
+
+
+
+
+
+42
+
+SDLC - team responsibilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+43
+
+Component ownership
+
+
+
+
+
+Cost
+You are responsible for making informed decisions that lead to a reasonable cost of your services
+
+Security
+You are responsible for ensuring your components are patched, secure and well designed from a security perspective
+
+Availability
+You are responsible for ensuring your component is up, fast and are also the one that will fix it if it breaks
+
+Maintainability
+You are responsible for ensuring that you make technical decisions that favor maintainability.
+
+Observability
+You are responsible for ensuring that your component can be monitored, has the right alerts, dashboards and logging.
+
+Testing
+
+
+
+Component ownership
+
+
+
+Opslevel component view
+
+
+
+Opslevel component view
+
+
+
+Opslevel driving component compliance
+
+
+
+
+
+
+
+
+
+
+Driving operational maturity
+Checks enforced in the pipeline around
+topics such as
+
+• Service ownership
+
+• Observability
+• Cost control
+
+• Iris API golden path
+
+• Frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our way to building a world class software platform with the construction industry
+Golden Path
+
+
+Golden paths
+
+
+
+
+
+• Opinionated and supported path to building software
+
+• Multiple golden paths exists
+
+• Governed by communities and teams
+
+• By choosing to follow the golden path, you will get things out
+of the box, such as backup, monitoring or other
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53
+
+Postgres golden path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+54
+
+
+
+
+
+
+
+
+
+
+
+08	Scaling an engineering organization
+
+2018
+
+
+
+
+Scaling to 200 people
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57
+
+New challenges
+
+
+• Multiple solutions to crosscutting concerns were made
+
+• Larger code base that need to be maintained
+
+• Reorganizing teams led to difficulty maintaining code
+
+• Specialist knowledge required to scale (security, databases, servers, API design)
+
+• Higher focus on security
+
+• Management lacked insight into engineering org performance
+
+• Higher focus on uptime and incident management
+
+• 2018 alignment mechanisms did not work
+
+• Production system configuration overview missing
+58
+
+What did we change
+
+
+Introduced developer enablement team handling crosscutting concerns Aligned technologies and tools used
+Introduced communities to facilitate knowledge sharing Built golden paths to support common development work Measure the performance of the engineering organization
+Introduced incident process to ensure consistent incident handling
+Introduced team ownership
+Adopt declarative approach to running software and use Gitops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59
+
+Team constellation - 2025
+
+
+
+Developer enablement team
+
+
+Responsibilities
+
+• Servers
+• Network
+• Databases - traditional and NoSQL
+• Monitoring stack - application logs, metrics and traces
+• Backup
+• Kubernetes
+
+Provides teams a simple interface to run applications
+Product teams need only a minimal understanding about the above
+
+
+
+
+
+
+
+
+
+
+
+61
+
+
+
+Tech radar
+
+
+
+
+
+• Familiar tech
+• Focus on fewer technologies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+62
+
+Creating alignment
+
+
+
+
+
+
+
+
+63
+
+Organization performance
+What to measure? Lines of code written?
+
+DevOps Research and Assessment (DORA) suggests measuring
+- How long it takes to make a new release
+- How often you deliver a new release to customers
+- How often a delivery is faulty (in %)
+- How long it takes to fix a faulty release
+
+
+
+
+
+
+
+
+64
+
+Declarative configuration
+
+
+"Start two instances of telematics-device-api" (action)
+
+vs
+
+"Two instances of telematics-device-api are running" (desired state)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65
+
+Before Gitops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66
+
+After Gitops
+
+
+
+
+
+
+
+
+
+
+
+
+
+67

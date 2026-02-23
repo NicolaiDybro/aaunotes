@@ -1,0 +1,391 @@
+
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING: IMPROVING AGILITY
+
+
+
+JOHN STOUBY PERSSON
+
+
+
+
+
+
+
+The Trackunit organization (p.18)
+
+The Trackunit Product Development Life Cycle (p.29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Trackunit Software Development Life Cycle (p.31)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+Before GitOps (p.66)
+  After GitOps (p.67)
+
+
+
+
+
+
+
+
+
+
+Knowledge about agile user-centered design and agility in an organizational context
+
+Skills in defining and managing the agility of software processes Competency to diagnose and improve agility in an organizational context
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Reduce the risk of complex and uncertain product ideas.
+* A dedicated track to validate ideas/hypotheses, i.e., the discovery track.
+* Validated ideas are converted to clear product backlog items.
+* Teams can reduce the risk of developing the incorrect product or features that do not satisfy customer requirements or market demand by having a dedicated track for discovery and validation.
+* The discovery track aids in the validation of ideas and the gathering of input early in the development process.
+* It allows teams to make informed decisions and create valid, tested, and clear product backlog items for the delivery track.
+* This lowers the risk of spending time and resources in developing a product that does not eventually satisfy the requirements of consumers or the market.
+
+
+
+
+
+
+
+
+
+
+
+
+No sequence intended - it is a list of tools for Discovery and Delivery
+
+
+
+
+
+
+
+
+
+You shouldn't think of it as two processes - just two parts of one process. And, I think you're doing developers and others on the team a disservice not to involve them in discovery work. - Jeff Patton
+The whole team is responsible for product outcomes, not just on-time delivery - Jeff Patton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Principles
+• Release, Measure, and Learn. - Jeff Patton
+• Two tracks, not two teams- Jeff Patton
+
+
+
+
+Internal: own experience
+
+
+
+
+
+
+
+Qualitative:
+
+
+Scandinavian SPI
+
+Metrics programmes
+
+description and experience- based
+
+Quantitative:
+metrics-based
+
+
+
+
+Traditional SPI(CMMI)
+
+
+
+
+External: professional norms, research
+
+
+
+
+
+
+
+	
+
+The Scandinavian approach -
+a critique of traditional CMMI & SPI
+
+
+
+
+1. Focus on problems - not on a specific solution (e.g. CMMI level 2)
+
+2. Emphasize knowledge creation - not knowledge deployment
+
+3. Encourage participation - not expert solution
+
+4. Integrate leadership - do not rely on staff work
+
+5. Plan for continuous improvement - a portfolio, not a project
+
+             Mathiassen, Nielsen & Pries-Heje 2002, Learning SPI in Practice https://www.researchgate.net/publication/238785794_Learning_SPI_in_Practice
+
+
+
+
+Research question:
+How can Information Systems Development (ISD) agility be improved in fast-moving software organizations?
+
+
+combines real-world problem solving with systematic learning and reflection.
+
+
+
+
+
+
+Problems in the company Adapt	How to improve Agility in fast- moving software organizations
+
+McKay & Marshall (2001) The dual imperatives of action research. Information Technology & People 14(1), 46-59.
+
+in Adapt vs Siemens Flow
+
+
+Flexibility and Discretion
+
+
+
+
+Challenges
+Diverse PM responsibilities
+• Developer (re)allocation
+• Task management
+• Customer contact
+• Testing
+
+Complex mix of contract and project models
+• Waterfall - Agile
+• Project - SLA
+• Old - New customers
+• Maintenance task - Project
+
+Insufficient, dated, and redundant methods and tools for ISD management
+• Different PM practices
+• Less overview
+• Redundant data entry
+
+Intervention
+1. Reformulate the ISD method to better reflect the practices and environment
+• Manage projects based on customer relationships (Project, SLA, Maintenance tasks)
+• Short descriptions based on checklists
+
+2. Integrate ISD planning and control into one tool (JIRA)
+• Manage development tasks, developers, and time
+• Represent project management checklists as a JIRA workflow
+
+
+
+
+
+
+
+
+
+
+
+
+Conboy, K. 2009, "Agility from First Principles: Reconstructing the Concept of Agility in Information Systems Development," Information Systems Research (20:3), pp. 329-354.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Map problems
+2. Elicit overview
+3. Plan improvement
+4. Evaluate improvement
+
+
+Assignment 1: Improving agility in your project (100%)
+Assess a process improvement initiative (method component) you have adopted with the table below.
+
+
+
+
+
+
+
+
+
+Knowledge about agile user-centered design and agility in an organizational context
+
+Skills in defining and managing the agility of software processes Competency to diagnose and improve agility in an organizational context
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,589 @@
+
+
+
+
+
+
+
+
+
+
+
+
+AGILE SOFTWARE ENGINEERING
+
+
+JOHN STOUBY PERSSON
+
+
+
+
+
+Overview of the content and activities in the agile software engineering (ASE) course.
+
+Understand the software engineering problem and that it has fundamentally different answers.
+
+Knowledge of different paradigms for organizing software engineering (process models).
+
+
+
+2015 Associate professor, Department of Computer Science
+2010 PhD in Computer Science and Engineering (Information Systems) 2006 MSc in Informatics
+John's research of information and software technology centers on the problems people experience in practice. He focuses on the problems that are important for professionals such as software engineers, interaction designers, computer scientists, project managers, data scientists, and chief information officers. His problem- based research also aims at improving his problem-based teaching to support reflection in and on professional practice.
+He mostly does collaborative practice research of problems in managing the development of information systems with public or private organizations. More specifically, he has collaborated on improving the digital transformation towards sustainability goals, valuation of information systems, and pragmatic inquiry.
+
+
+
+
+
+• Provide insight into leading paradigms of agile software engineering, including but not limited to agile processes, risk management, quality management, testing, and DevOps
+• Understand the primary software engineering processes, in particular plan- driven, agile, and re-use processes
+• Understand the primary tools and techniques and how they support the primary processes
+• Develop the capacity to use this understanding to reflect on and improve software development practices
+• Establish precise use of terms and concepts
+• 20 min oral exam in January
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5
+
+
+
+
+
+
+
+
+
+
+
+         (AGILE) SOFTWARE ENGINEERING
+INTRODUCTION
+
+
+
+
+
+• Delays
+• Budget overruns
+• Less quality than expected or agreed
+
+• Planning is difficult - and not always possible
+• Software quality is not easily assessed
+
+
+
+
+
+
+
+
+
+What do you see as the biggest challenge to
+successful software engineering?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384 mio. --> +82,6 mio.	8
+
+
+
+
+• Methods
+• Structured
+• Data-flow
+• Object-oriented
+• Prototyping
+• Business process modelling
+• ...
+• Processes
+• Waterfall
+• Agile, XP, Scrum, Crystal
+• Mixed, RUP, UP
+• Project management
+• Project planning
+• Risk management
+• Quality management
+• Configuration management
+• Test planning
+• Change management
+• Subcontractor management
+• ...
+• Tools
+• Integrated development environments (language dependent)
+• Testing tools,
+• Versioning and configuration tools, SVN, Git,
+• ...
+• Training, education, competence, people
+• ...
+
+
+
+
+
+
+
+You must accept that your job involves wider responsibilities than simply the application of technical skills!
+
+You are lucky! You transform the society through good well paid jobs! Pay attention to:
+• Confidentiality of employers and clients
+• Competence - do not knowingly accept work outside your competencies
+• Intellectual Property Rights - be aware of copyright and patents
+• Computer misuse - do not misuse other people's computer
+• Dark patterns - do not accept work, that asks you to trick users to do something they don't want (see video with Martin Fowler)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sommerville, chapter 2
+SOFTWARE PROCESSES (PART 2)
+
+
+
+
+
+* Software process: a set of related activities required to develop a software system.
+* Many different software processes but all involve activities to:
+* Specification - defining what the system should do;
+* Design and implementation - defining the organization of the system and implementing the system;
+* Validation - checking that it does what the customer wants;
+* Evolution - changing the system in response to changing customer needs.
+* A software process model is an abstract representation of a process. It presents a description of a process from a particular perspective.
+
+
+
+
+
+1. Specification, where customers and developers defines the properties and requirements of the software product or service
+2. Design and implementation, where the developers design and program the software
+3. Validation & verification, where it is checked to ensure the product/service conforms to customers' expectations and experience (validation) and specification (verification) through integration and system testing
+4. Evolution, where the product/service is modified to reflect changing customer and market requirements
+
+
+• Customer, i.e., buyers, clients, users, employees, citizens, ...
+
+
+A. The waterfall model
+• Plan-driven model. Separate and distinct phases of specification, design, implementation, test and operations.
+
+
+
+B. Incremental development
+• Specification, development and validation are interleaved. May be plan-driven or agile.
+
+
+C. Integration and configuration
+• The system is assembled from existing configurable components. May be plan-driven or agile.
+
+In practice, most large systems are developed using a process that incorporates elements from all of these models.
+
+
+
+
+
+
+
+Validation
+
+
+
+Verification
+
+
+
+Verification
+
+
+
+
+Validation & verification
+
+
+
+
+
+
+
+
+Concurrent activities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+• Change is inevitable in all large software projects.
+• Business changes lead to new and changed system requirements
+• New technologies open up new possibilities for improving implementations
+• Changing platforms require application changes
+• Change leads to rework so the costs of change include both rework (e.g. re- analyzing requirements) as well as the costs of implementing new functionality
+
+• 3 things we wish were true
+• The customer knows what he wants
+• The developers know how to build it
+• Nothing will change along the way
+
+• 3 things we have to live with
+• The customer discovers what he wants
+• The developers discover how to build it
+• Many things change along the way
+
+
+
+
+
+I. System prototyping, where a version of the system or part of the system is developed quickly to check the customer's requirements and the feasibility of design decisions. This approach supports change anticipation.
+
+
+II. Incremental delivery, where system increments are delivered to the customer for comment and experimentation. This supports both change avoidance and change tolerance.
+
+
+
+
+
+
+
+
+
+
+
+
+Types of prototypes can be:
+• Horizontal (e.g. UI)
+• Vertical (e.g. slice of functionality)
+
+
+
+
+
+
+
+
+
+Which model in which situation?
+
+
+
+
+Undefined solution	Well-defined solution
+
+Software developed from scratch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software reuse
+
+
+
+
+Process improvement: Capability maturity levels
+(Chapter 2.4)
+
+
+
+
+
+
+
+Process improvement strategies defined and used
+
+
+Quality management strategies defined and used
+
+Process management procedures and strategies defined and used
+
+
+Product management procedures defined and used
+
+
+Essentially uncontrolled
+
+
+
+
+
+
+
+Increased visibility with maturity levels
+
+
+
+
+
+
+
+
+
+
+
+
+Topic
+
+5 min.	11 min.
+
+1 - 9
+
+Prepared presentation of the topic that reference appropriate curriculum stated on the course Moodle page
+
+Examination of topic
+
+
+
+
+
+
+
+
+
+1. Software Process Model - Waterfall / Incremental / Iterative
+2. Comparison of plan-driven and agile
+3. Key features of Scrum
+4. Key features of XP
+5. Product Planning and Refinement
+6. Risk Management
+7. Quality Management
+8. Configuration Management and DevOps
+9. Improving Agility
+
+
+
+
+
+
+
+Exercise 1: Exploration of problems (20%)
+• Discuss 2-3 cases of IT projects that you know either directly or from the news.
+
+Exercise 2: Differences between main processes (40%)
+• Discuss the benefits and drawbacks of the three main processes described in Sommerville's chapter 2, and how these differences can be used in choosing an appropriate process given different situations and circumstances.
+
+Exercise 3: Your semester project (40%)
+• What will our primary process be (waterfall, incremental, integration & configuration, or a mix)?
+• Why?
+• Outline how the four generic activities, Specification, Design and Implementation, Validation, and Operation, are implemented in your project.
+
+I (John S. Persson) and the TAs will be present during the exercises. If you have any questions or need assistance, please don't hesitate to reach out to us in this Teams channel. Please state your room number, and we will come to you as soon as possible.
+
+
+
+
+
+• Klynge 4, stueetagen (hele klyngen)
+
+• Fællesarealerne i og lige udenfor klynge 4
+
+• Følgende lokaler i klynge 3: 3.1.50, 3.1.46, 3.1.10, 3.1.01, 3.1.03, 3.1.05
+
+
+
+
+
+Overview of the content and activities in the agile software engineering (ASE) course.
+
+Understand the software engineering problem and that it has fundamentally different answers.
+
+Knowledge of different paradigms for organizing software engineering (process models).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
